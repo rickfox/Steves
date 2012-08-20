@@ -1,6 +1,7 @@
 <div id="dnn_ctr712_HtmlModule_lblContent" class="Normal">
 	<div id="heroSlideContainer">
 <div class="slide">
+<div class="wrapper">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide1_background.jpg" alt="Steves Ice Cream" />
 <div class="cta">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide1_textbox.png" alt="Steves Ice Cream" />
@@ -8,7 +9,9 @@
 a flavor revolution. That was just the beginning&hellip;</p>
 </div>
 </div>
+</div>
 <div class="slide">
+<div class="wrapper">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide2_background.jpg" alt="Steves Ice Cream" />
 <div class="cta">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide2_textbox.png" alt="Steves Ice Cream" />
@@ -16,12 +19,15 @@ a flavor revolution. That was just the beginning&hellip;</p>
 a flavor revolution. That was just the beginning&hellip;</p>
 </div>
 </div>
+</div>
 <div class="slide">
+<div class="wrapper">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide3_background.jpg" alt="Steves Ice Cream" />
 <div class="cta">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide3_textbox.png" alt="Steves Ice Cream" />
 <p>Forty years ago, Steve&rsquo;s invented the &ldquo;mix-in&rdquo; and sparked<br />
 a flavor revolution. That was just the beginning&hellip;</p>
+</div>
 </div>
 </div>
 </div>

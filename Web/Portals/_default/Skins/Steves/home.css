@@ -2,8 +2,9 @@
 #smakk-hero-wrapper{background:transparent url(images/text_background.jpg) repeat-x scroll center top;height:674px;width:100%;}
 #heroSlideContainer{background:#000; overflow:hidden;}
 #heroSlideContainer .slide{position:relative;width:100%;height:685px;overflow:hidden;}
-#heroSlideContainer .slide>img{ width:100%;z-index:5;min-width:1400px;position:relative;}
-#heroSlideContainer .slide .cta{position:absolute; top:0px; left:0px;}
+#heroSlideContainer .slide .wrapper{position:relative;}
+#heroSlideContainer .slide .wrapper>img{ width:100%;z-index:5;min-width:1400px;position:relative;}
+#heroSlideContainer .slide .cta{position:absolute; top:315px; left:35%;z-index:500;}
 
 
 /*##### ContentPane #####*/
