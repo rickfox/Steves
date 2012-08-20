@@ -1,0 +1,50 @@
+﻿<LicenceKey version="1.4">
+    <licenceType>Five</licenceType>
+    <product versionMajor="2" versionMinor="0">iFinity.UrlMaster</product>
+    <customerInfo>
+        <customerName>SM&amp;KK Studios</customerName>
+        <customerEmail>scott@smkkstudios.com</customerEmail>
+    </customerInfo>
+    <expiryDate>9999-12-31</expiryDate>
+    <hostGuid>
+    </hostGuid>
+    <registeredDomains>
+        <siteDomains>
+            <mainDomain domainName="skpny.com" domainType="Full">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="sjmdesign.com" domainType="Test">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="kcura.com" domainType="Full">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="relativityfest.com" domainType="Full">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="localhost" domainType="Test">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="smkk.com" domainType="Test">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+        <siteDomains>
+            <mainDomain domainName="orical.org" domainType="Full">
+                <subDomain subDomainName="www" />
+            </mainDomain>
+        </siteDomains>
+    </registeredDomains>
+    <key>EYJdAET5i7/52sjCNIkqqz33M8rlM0XneZnH8ywJpgjrhdlbB6Wc55ya6JfZhG73Y2IAj5qHjayOScYXEa757Q==</key>
+    <key2>zL+A9YE077Jmbb1okJv+Jxiz2V9JHgz97GRV7IBcBHB8NJUb2jWuvQkEwgsU8cfe3s50vWoEFnkveqzMRzbXlQ==</key2>
+</LicenceKey>

@@ -1,0 +1,16 @@
+﻿.hero_content_pane{width:960px; margin:0 auto;border-bottom: 2px solid #000000; margin-bottom: 50px; padding-bottom: 50px;}
+.hero_content_pane h1{color: #000000; font-family: "adobe-garamond-pro",sans-serif; font-size: 56px; font-style: italic; font-weight: 600; margin-bottom: 0; text-align: center;}
+.hero_content_pane h2{color: #999999; font-size: 20px; margin-top: 0; text-align: center;}
+
+.ContentPane h1{color: #000000; font-family: "adobe-garamond-pro",sans-serif; font-size: 28px; font-style: italic; font-weight: 600; }
+.ContentPane h2{font-size: 20px;color: #000000;}
+.ContentPane p{color:#666666;font-size: 16px;}
+.ContentPane p a{color:#91a223;}
+.ContentPane p a:hover{color:#c1d72e; text-decoration:none;}
+.ContentPane p a.readMore{font-size:16px;background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px;color:#91a223;}
+.ContentPane p a.readMore:hover{background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.ContentPane p img{display:block;}
+.ContentPane p span{font-weight:600;}
+.ContentPane blockquote { color: #999999; font-family: "adobe-garamond-pro",sans-serif; font-size: 33px; font-style: italic; text-align: center;}
+.ContentPane blockquote p{font-size: 33px;}
+.ContentPane li{color: #000000; font-size: 18px; font-weight: 600; list-style: disc outside none; padding-bottom: 10px;}

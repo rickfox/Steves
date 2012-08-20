@@ -1,0 +1,30 @@
+﻿#navLogo{position:absolute; top: 12px; left:0px;}
+#navLogo a{display:block; height:101px; width:318px; background: transparent url(images/logo-sprout.png) no-repeat scroll 0 0;}
+#navLogo a:hover{background-position: 0 -101px;}
+
+#smakk-header{height:110px}
+/*##### Where To Buy #####*/
+ #smakk-hero-wrapper{background:#fafafa url(images/horizontalbar.png) repeat-x scroll 0 0; height:109px;}
+ #smakk-content {padding: 50px}
+.heroContainerQuote,#hero_content{width:960px; margin:0 auto;}
+.smakk-page-where_to_buy .heroContainerQuote .Normal{text-align:center;}
+.smakk-page-where_to_buy .heroContainerQuote .Normal img{margin-top:15px;}
+.smakk-page-where_to_buy .hero_content_pane,.heroImage{float:left;}
+.smakk-page-where_to_buy .heroImage{width:400px;}
+.smakk-page-where_to_buy .hero_content_pane{width:540px;margin-left:20px;}
+.smakk-page-where_to_buy .hero_content_pane h1{font-family: "adobe-garamond-pro",sans-serif;font-style:italic; font-weight:600;font-size:56px;}
+.smakk-page-where_to_buy .hero_content_pane p{font-size:18px; color:#999999;}
+.smakk-page-where_to_buy .hero_content_pane p a{color:#91a223; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px}
+.smakk-page-where_to_buy .hero_content_pane p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.smakk-page-where_to_buy .col{float:left;width:320px;}
+.smakk-page-where_to_buy .col h1{font-family:"adobe-garamond-pro"; font-weight:600;font-size: 28px; text-transform: uppercase;}
+.smakk-page-where_to_buy .col h2{font-family:"adobe-garamond-pro"; font-style:italic; font-weight:600;font-size: 22px; margin-bottom;3px;}
+.smakk-page-where_to_buy .col h3{font-family:"proxima-nova",sans-serif; font-weight:600;font-size: 19px; margin-bottom:0px;}
+.smakk-page-where_to_buy .col p{font-family:"proxima-nova",sans-serif; font-weight:400;font-size: 15px; color:#666666; margin-top:1px;}
+a:link {color:#91a223;}      /* unvisited link */
+a:visited {color:#91a223;}  /* visited link */
+a:hover {color:#c1d72e;}  /* mouse over link */
+a:active {color:#;}  /* selected link */ 
+
+
+/*##### Our Story #####*/

@@ -1,0 +1,218 @@
+<portal version="3.0">
+  <description>Homepage</description>
+  <tabs>
+    <tab>
+      <containersrc />
+      <description />
+      <disabled>false</disabled>
+      <enddate>0001-01-01T00:00:00</enddate>
+      <issecure>false</issecure>
+      <visible>true</visible>
+      <keywords />
+      <pageheadtext />
+      <permanentredirect>false</permanentredirect>
+      <refreshinterval>-1</refreshinterval>
+      <sitemappriority>0.5</sitemappriority>
+      <skinsrc>[G]Skins/Sprout/home.ascx</skinsrc>
+      <startdate>0001-01-01T00:00:00</startdate>
+      <name>Home</name>
+      <title />
+      <url type="Normal" />
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>All Users</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+      </tabpermissions>
+      <tabsettings>
+        <tabsetting>
+          <settingname>CacheDuration</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>ExcludeVaryBy</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>CacheProvider</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>IncludeVaryBy</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>MaxVaryByCount</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>CacheIncludeExclude</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+      </tabsettings>
+      <panes>
+        <pane>
+          <name>testimonials</name>
+          <modules>
+            <module>
+              <moduleID>689</moduleID>
+              <title>Testimonials</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;blockquote&amp;gt;
+&amp;quot;I just heard about this small, Brooklyn-based company... and got so excited about
+what they do. It&amp;amp;rsquo;s the way it should be, made once a week in small batches,
+using glass jars and supporting local, sustainable farms.&amp;quot;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;amp;ndash; from Gwyneth Paltrow&amp;#39;s GOOP
+&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;quot;It&amp;amp;rsquo;s been one week since receiving my Sprout order, and I couldn&amp;amp;rsquo;t
+be more pleased. Sprout products have effectively eradicated all other brands from
+my skincare routine and have re-balanced my unusually temperamental skin to its
+porcelain gleam once more.&amp;quot;&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;amp;ndash;Shannon C.
+&amp;lt;/p&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>hero_content_pane</name>
+          <modules>
+            <module>
+              <moduleID>687</moduleID>
+              <title>Hero Content Pane</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg1.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg2.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg1.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg1.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg1.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;http://sproutskincare.myshopify.com/&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://localdev.sproutskincare.com/portals/_default/skins/sprout/images/home/homePageHeroImg2.png&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>ContentPane</name>
+          <modules>
+            <module>
+              <moduleID>688</moduleID>
+              <title>Headline</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h1&amp;gt;Simplicity is the essence of awesome.&amp;lt;/h1&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+      </panes>
+    </tab>
+  </tabs>
+</portal>

@@ -1,0 +1,29 @@
+/*##### Site Header Nav #####*/
+
+#smakk-nav li{list-style:none; float:left;font-size:20px; padding:1px 5px; font-family: "adobe-garamond-pro",sans-serif;font-style:italic; font-weight:600;}
+#smakk-nav li a{color:#000; }
+#smakk-nav ul{left:325px;}
+/*##### Footer #####*/
+#smakk-footer-wrapper .col1 .footerLogo{height:120px;}
+#smakk-footer-wrapper .col1 .footerLogo div{margin:0 auto; margin-top:30px;display:block;height:48px; width:223px;background: purple url(images/footerLogo.png) no-repeat scroll 0 0;} 
+#smakk-footer-wrapper .col1 .footerLogo div{margin:49px auto; margin-top:40px;display:block;height:48px; width:223px;background: transparent url(images/footerLogo.png) no-repeat scroll 0 0;} 
+#smakk-footer-wrapper .socialLink{width:105px; float:left; height:42px; color:#ccc;padding-top:5px;}
+#smakk-footer-wrapper .col2 ul{padding-left:12px;margin-top:30px;padding-right:10px;}
+#smakk-footer-wrapper .col2 li a{color:#fff; font-size:14px; font-weight:600;}
+#smakk-footer-wrapper .col3 .footerSignUp{font-size:14px;}
+#smakk-footer-wrapper .col2{width:186px;}
+#smakk-footer-wrapper .col2 ul{padding-left:7px;margin-top:50px;}
+#smakk-footer-wrapper .col1 .footerLogo{border-bottom:1px solid #666; height:116px;}
+#smakk-footer-wrapper .facebook .left a,#smakk-footer-wrapper .facebook .right a{display:block; margin-left:43px; top:-36px;}
+#smakk-footer-wrapper .facebook .right a{margin-left:53px;}
+/**##### MailChimp Subscribe Form#####*/
+#sideNav .register{font-size:13px; overflow:visible;}
+
+/*#### Shop ####*/
+#div.store-content ul.product-grid .product-name a {color:#000; font-size:17px;}
+
+ div.store-subhead img { padding-top:15px; }
+ .description .Ingredients{padding-top:15px;}
+ .buttons #purchase{margin-bottom:15px;}
+ div.store-header{padding:0;}
+ #sideNav .register IFRAME{height:35px; }

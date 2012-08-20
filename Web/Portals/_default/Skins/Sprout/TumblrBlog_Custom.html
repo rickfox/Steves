@@ -1,0 +1,1145 @@
+﻿                <!doctype html>
+                <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+                <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+                <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+                <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+                <head>
+
+                <!--
+                ==========================================================================
+                 ____                     ___       __  __                                
+                /\  _`\  __              /\_ \     /\ \/\ \          __                   
+                \ \ \L\ \\_\  __  _    __\//\ \    \ \ \ \ \    ___ /\_\    ___    ___    
+                 \ \ ,__//\ \/\ \/'\ /'__`\\ \ \    \ \ \ \ \ /' _ `\/\ \  / __`\/' _ `\  
+                  \ \ \/ \ \ \/>  <//\  __/ \_\ \_   \ \ \_\ \/\ \/\ \ \ \/\ \L\ \\ \/\ \ 
+                   \ \_\  \ \_\\_/\_\ \____\/\____\   \ \_____\ \_\ \_\ \_\ \____/ \_\ \_\
+                    \/_/   \/_///\/_/\/____/\/____/    \/_____/\/_/\/_/\/_/\/___/ \/_/\/_/
+                ==========================================================================
+                   Juneau v1.0.9
+                   Updated: June 20, 2012
+                   Website: http://pixelunion.net
+                   Themes: http:tumblr.com/themes/by/pixelunion
+                ========================================================================== 
+                -->
+
+                  <meta charset="utf-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+                    <meta name="color:Link Color" content="#b5793e"/>
+                    <meta name="color:Link Hover Color" content="#9a632d"/>
+
+                    <meta name="image:Avatar Image" content=""/>
+                    <meta name="image:Header Image" content="http://static.tumblr.com/hugxd2w/rJmm4uv5e/default_header.gif"/>
+
+                    <meta name="if:No Header Image" content="0" />
+                    <meta name="if:Scale Header image" content="1" />
+	                <meta name="if:Big header Image" content="1" />
+	                <meta name="if:Shape Fancy Trees" content="1" />
+	                <meta name="if:Shape Inception" content="0" />
+	                <meta name="if:Shape Target" content="0" />
+	                <meta name="if:Shape Basic Triangle" content="0" />
+	                <meta name="if:Shape Basic Circle" content="0" />
+	                <meta name="if:Shape Basic Trees" content="0" />
+
+	                <meta name="if:Single Column Layout" content="0"/>
+	                <meta name="if:Infinite Scroll" content="0"/>
+
+	                <meta name="if:Facebook Comments" content="0" />
+	                <meta name="if:Disqus Comments" content="0" />
+
+	                <meta name="if:Display Likes" content="0" />
+	                <meta name="if:Display Following" content="0" />
+	                <meta name="if:Display Post Authors" content="0"/>
+	                <meta name="if:Display Group Members" content="0"/>
+
+	                <meta name="if:Display Twitter Feed" content="0"/>
+
+	                <meta name="if:Invert Title Color" content="0"/>
+	                <meta name="if:Invert Subtitle Color" content="0"/>
+	                <meta name="if:Hide Titles" content="0"/>
+
+	                <meta name="text:Subtitle" content="" />
+	                <meta name="text:About me title" content="About me" />
+	                <meta name="text:Social links title" content="Connect with me" />
+	                <meta name="text:Following title" content="Following" />
+	                <meta name="text:Initial followers row count" content="4" />
+
+	                <meta name="text:Number of Twitter Posts" content="5" />
+	                <meta name="text:Twitter Username" content="" />
+
+	                <meta name="text:Facebook Username" content="" />
+	                <meta name="text:Facebook API ID" content="" />
+	                <meta name="text:Vimeo Username" content="" />
+	                <meta name="text:Flickr Username" content="" />
+	                <meta name="text:Lastfm Username" content="" />
+	                <meta name="text:Dribbble Username" content="" />
+	                <meta name="text:Skype Username" content="" />
+	                <meta name="text:Facebook Username" content="" />
+	                <meta name="text:Google Plus URL" content="" />
+	                <meta name="text:Github Username" content="" />
+	                <meta name="text:Youtube Username" content="" />
+	                <meta name="text:Linkedin Profile URL" content="" />
+	                <meta name="text:Svpply Username" content="" />
+	                <meta name="text:Rdio Username" content="" />
+	                <meta name="text:Foursquare Username" content="" />
+	                <meta name="text:Instagram URL" content="" />
+	                <meta name="text:Pinterest Username" content="" />
+	                <meta name="text:Disqus Shortname" content="" />
+	                <meta name="text:Google Analytics Shortcode" content="" />
+
+	                {block:IfFacebookUsername}<meta property="fb:admins" content="{text:Facebook Username}"/>{/block:IfFacebookUsername}
+	                {block:IfFacebookAPIID}<meta property="fb:app_id" content="{text:Facebook API ID}"/>{/block:IfFacebookAPIID}
+
+	                {block:IndexPage} 
+	                <meta property="og:type" content="blog">
+	                <meta property="og:description" content="{MetaDescription}">
+	                {/block:IndexPage}
+	                {block:PermalinkPage}
+	                <meta property="og:type" content="article">
+	                <meta property="og:description" content="{block:PostSummary}{PostSummary}{/block:PostSummary}">
+	                {/block:PermalinkPage}
+
+	                <title>{Title}</title>
+	                <link rel="shortcut icon" href="http://sproutskincare.com/favicon.ico">
+	                {block:Description}
+	                <meta name="description" content="{MetaDescription}">
+	                {/block:Description}
+
+	                <meta name="viewport" content="width=device-width">
+
+	                <link rel="stylesheet" href="http://static.tumblr.com/hugxd2w/0elm4wtvo/style.css">
+
+	                <script src="http://static.tumblr.com/hugxd2w/gPam0w5o1/modernizr-2.5.3.min.js"></script>
+	                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	                <script src="http://assets.tumblr.com/javascript/tumblelog.js?800"></script>
+        
+                    <script type="text/javascript">
+//                        $(window).load(function () {
+//                            var x = $("#sidebar_sprout").css("height");
+//                            minheight(x);
+//                            $(window).resize(function () {
+//                                x = $("#sidebar_sprout").css("height");
+//                                minheight(x);
+//                            });
+//                        });
+//                        function minheight(x) {
+//                            $("#wrapper").css("min-height",x );
+//                         }
+                    </script>
+                    <!-- Add Typekit -->
+                    <script type="text/javascript" src="//use.typekit.net/lwp5dbq.js"></script>
+            <script type="text/javascript">                try { Typekit.load(); } catch (e) { }</script>
+	                <style type="text/css">
+	                    body{font-family: "proxima-nova",sans-serif;}
+		                a,
+		                a:visited,
+		                #content article h1 a:hover,
+		                #pagination .next-prev a span,
+		                #sidebar #pages li a:hover,
+		                .permalink #content article .notes .note a.more_notes_link,
+		                #content .type-link.highlight h1 a
+		                { 
+			                color: {color:Link Color};
+		                }
+		                #content .type-link.highlight h1 a:hover, a:hover { color: {color:Link Hover Color}; }
+
+		                {block:IfSubtitle}
+		                .index-page #header.fancy-trees { height: 296px; }
+		                .index-page #header.inception { height: 301px; }
+		                .index-page #header.target { height: 352px; }
+		                .index-page #header.basic-triangle { height: 315px; }
+		                .index-page #header.basic-circle { height: 295px; }
+		                .index-page #header.basic-trees { height: 300px; }
+		                {/block:IfSubtitle}
+		                {block:IfHideTitles}
+		                .index-page #header.fancy-trees { height: 176px; }
+		                .index-page #header.inception { height: 180px; }
+		                .index-page #header.target { height: 232px; }
+		                .index-page #header.basic-triangle { height: 195px; }
+		                .index-page #header.basic-circle { height: 175px; }
+		                .index-page #header.basic-trees { height: 178px; }
+		                {/block:IfHideTitles}
+
+                        {block:IfNoHeaderImage}
+                        .index-page #header .header-inner.thin {
+                            padding-top:20px !important;
+                        }
+                        {/block:IfNoHeaderImage}
+                        /*Added by SM&KK for Sprout*/
+                        #header{min-height:100px !important;}
+                        #topBar{background: #fff url("//sproutskincare.com/portals/_default/skins/sprout/images/topBar.png") repeat-x scroll 0 0; width:100%; height:25px; position:fixed; top:0px;z-index:9999;}
+                        #wrapper{position:relative;margin-top:25px; }
+                        .header-inner{position:relative; left:0; z-index:9999;}
+                        #header-pagination{top:75px;right:15px;font-family: "adobe-garamond-pro",sans-serif;}
+                        .text-copy{font-family: "proxima-nova",sans-serif; font-size:13px;}
+                        #content article h1 a{font-family: "adobe-garamond-pro",sans-serif;font-size:29px; font-weight:700;}
+                        #content article .tags a{background:#ccc; color:#fff;font-size:13px;font-family: "adobe-garamond-pro",sans-serif;}
+                        #content article .tags a:hover{background:#c1d72e;}
+                        #content article aside a{font-size:13px; color:#cccccc;}
+                        #header-pagination p{margin-top:0px;}
+                        .register h1{font-size:28px;color:#91a223;font-family: "adobe-garamond-pro",sans-serif;font-weight:600;margin-bottom:10px;text-align:center;font-style:italic;}
+                        .register {font-size:13px; color:#999999;font-family: "proxima-nova",sans-serif; text-align:center;}
+                        .register iframe{margin:15px 0;}
+                        #sidebar_wrapper_sprout{z-index:1;height:100% !important;}
+                        #sidebar_sprout #panels_sprout #profile #about-me p{font-size:12px; color:#808080;font-family: "proxima-nova",sans-serif;text-align:justify;}
+                        .tags h1,.external_links h1,#sidebar_sprout #panels_sprout h2#connect-title,#sidebar_sprout #panels_sprout  #about-me h2{font-size:20px;color:#91a223;font-family: "adobe-garamond-pro",sans-serif;font-weight:600;font-style:italic;margin-bottom:10px;}
+                        #sidebar_sprout #panels_sprout #about-me h2{font-size:28px;color:#91a223;font-family: "adobe-garamond-pro",sans-serif;font-weight:600;}
+                        .external_links{margin:15px 0;}
+                        .external_links a{color:#999999; font-size:13px;font-family: "proxima-nova",sans-serif;}
+                        .external_links a:hover{color:#91a223;}
+                        #twitter h2 a,#sidebar_sprout #panels_sprout #likes h2,#connect-title{font-size:20px;color:#91a223;font-family: "adobe-garamond-pro",sans-serif;font-weight:600;}
+                        #twitter .tweet{font-size:13px;font-family: "proxima-nova",sans-serif;}
+                        #sidebar_sprout .jspPane{left:0px !important;padding:40px 0 100px 34px}
+                        #panels{width:300px; }
+                        #sidebar_sprout #icons-nav-sprout .profile a{}
+                        #sidebar_sprout #icons-nav-sprout .profile a:hover, #sidebar_sprout #icons-nav-sprout .profile a.active{}
+                        #sidebar_sprout #panels_sprout .box,#sidebar_sprout #panels{height:100% !important;}
+                        #content{width:555px !important;}
+                        #wrapper{overflow:hidden;padding-bottom:0px;}
+                        #pagination{margin-left:340px;font-family: "adobe-garamond-pro",sans-serif;font-weight:600;font-size:15px;}
+                        #pagination .next-prev span{color:#808080;}
+                        /*Override styles to remove collapsable sidebar*/
+                        #content .type-text h1 a{font-size:30px;}
+                        #content article{width:540px;}
+                        #content article .share > span{font-family: "proxima-nova",sans-serif;font-size:13px; color:#808080;}
+                        #content article .meta a{font-family: "adobe-garamond-pro",sans-serif;color:#808080;}
+                        #content article .meta a.date{font-family: "proxima-nova",sans-serif;}
+                        .share .short-url{font-family: "proxima-nova",sans-serif;}
+/*Article Pages*/
+#tumblr_controls{margin-top:25px;}
+.index-page  #wrapper{background:transparent url("http://sproutskincare.com/portals/_default/skins/sprout/images/tumblr/background_grad.png") repeat-y scroll 0 0;}
+#content article aside .meta{font-weight:600; font-style:italic;}
+#content article{text-align:justify;}
+.read_more_container a{font-weight:600;}
+.read_more_container a:after{content:" >"}
+#content article aside{font-family: "adobe-garamond-pro",sans-serif;}
+/*Link Box*/
+
+ #content .type-link .link-box {
+background: none repeat scroll 0 0 #FDFDFD;
+border: 1px solid #E6E6E6;
+border-radius: 5px 5px 5px 5px;
+margin-bottom: 40px;
+padding: 25px;
+text-align: center;
+}
+ #content .type-link .link-icon {
+    border-bottom: 1px solid #D6D6D6;
+    border-radius: 0 0 0 0;
+    display: block;
+    margin: 0 auto 20px;
+}
+#content .type-link .link-icon-normal, .permalink .link-icon-normal {
+    display: none;
+}
+.permalink #content .type-link h1 a{background:none;font-size:16px;}
+/*Music*/
+ .type-audio .post .listen .song-info {
+    float: right;
+    width: 400px;
+}
+ #content .type-audio .song-info h1, .index-page #content .type-audio .song-info h2, .index-page #content .type-audio .song-info h3, .index-page #content .type-audio .song-info .plays, .index-page #content .type-audio .song-info .download {
+    border-top: 1px solid #E8E8E8;
+    margin: 0;
+    padding: 13px 0 13px 40px;
+}
+ #content .type-audio .song-info h1 {
+    border: medium none;
+    font-size: 24px;
+}
+#content .type-audio .song-info h2 {
+    font-size: 18px;
+    padding: 10px 0 12px 40px;
+}
+ #content .type-audio .song-info h3 {
+    font-size: 13px;
+}
+ #content .type-audio .song-info .plays {
+    font-size: 12px;
+    padding: 10px 0 10px 40px;
+}
+ .type-audio.highlight .album-art {
+    background: url("http://static.tumblr.com/gmeghwp/Mh3m4rado/highlight-no-album-art.jpg") no-repeat scroll 0 0 transparent;
+    height: 400px;
+    width: 400px;
+}
+ #content .type-audio.highlight .album-art img {
+    border-radius: 5px 5px 5px 5px;
+    height: auto;
+    max-width: 400px;
+    width: 400px;
+}
+ .type-audio .song-info.spotify{display:block;}
+/*QUOTE*/
+ #content .type-quote .post blockquote:before {
+    content: "";
+}
+ #content .type-quote blockquote,#content .type-quote .post blockquote {
+    background:#FDFDFD;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    font-family: "adobe-garamond-pro",sans-serif;
+    font-weight:600;
+}
+ #content .type-quote .quote-icon {
+    border-bottom: 1px solid #D6D6D6;
+    border-radius: 0 0 0 0;
+    display: block;
+    margin: 0 auto 20px;
+}
+/*CHAT*/
+#content .type-chat .chat-icon {
+    border-radius: 0 0 0 0;
+    display: block;
+    margin: 0 auto 20px;
+}
+#content .type-chat h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+ #content .type-chat .post p {
+    border-bottom: 1px solid #E6E6E6;
+    border-top: medium none;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0 10px 100px;
+}
+ #content .type-chat .post p:first-of-type {
+    border-top: 1px solid #E6E6E6;
+}
+ #content .type-chat .post .the-who {
+    display: inline-block;
+    font-weight: bold;
+    width: 100px;
+}
+/*Text*/
+   .type-text .pencil-icon,.type-text .chat-icon{
+    border-bottom: 1px solid #D6D6D6;
+    border-radius: 0 0 0 0;
+    display: block;
+    margin: 0 auto 20px;
+}                 
+/*SideBar*/                        #sidebar_wrapper_sprout{font-size: 13px;
+        line-height: 17px;
+        
+        position: relative;
+        top: 0px;
+        width: 340px;
+        z-index: 1;
+        float:left;
+        height:100%;
+        padding-top:450px;
+    }
+    #sidebar_sprout{position:relative;height:100%;}
+    #sidebar_sprout #icons-nav-sprout {
+        background: none repeat scroll 0 0 #FFFFFF;
+      
+        height: 200px;
+        left: 300px;
+        list-style: none outside none;
+        margin: 0;
+        padding: 60px 0 0;
+        position: absolute;
+        top: 0px;
+        width: 40px;
+    }
+    #sidebar_sprout #icons-nav-sprout a {
+        background: url("http://static.tumblr.com/hugxd2w/wEem2fy73/social-icons.png") no-repeat scroll 0 0 transparent;
+        display: block;
+        height: 16px;
+        margin-bottom: 15px;
+        margin-left: 12px;
+        outline: medium none;
+        text-indent: -99999px;
+        width: 16px;
+    }
+    #sidebar_sprout #icons-nav-sprout .profile a {
+        background: url("http://sproutskincare.com/portals/_default/skins/sprout/images/tumblr/aboutus_icon.png") no-repeat scroll 0 0 transparent;
+        height:14px;
+    }
+    #sidebar_sprout #icons-nav-sprout .profile a:hover, #sidebar_sprout #icons-nav-sprout .profile a.active {
+        background-position: 0 -14px;
+    }
+    #sidebar_sprout #icons-nav-sprout .pages a {
+        background-position: -18px 0;
+    }
+    #sidebar_sprout #icons-nav-sprout .pages a:hover, #sidebar_sprout #icons-nav-sprout .pages a.active {
+        background-position: 0 0;
+    }
+    #sidebar_sprout #icons-nav-sprout .twitter a {
+        background-position: -36px -18px;
+    }
+    #sidebar_sprout #icons-nav-sprout .twitter a:hover, #sidebar_sprout #icons-nav-sprout .twitter a.active {
+        background-position: -36px 0;
+    }
+    #sidebar_sprout #icons-nav-sprout .likes a {
+        background-position: -18px -36px;
+    }
+    #sidebar_sprout #icons-nav-sprout .likes a:hover, #sidebar_sprout #icons-nav-sprout .likes a.active {
+        background-position: 0 -36px;
+    }
+    #sidebar_sprout #icons-nav-sprout .group-members a {
+        background-position: -54px 0;
+    }
+    #sidebar_sprout #icons-nav-sprout .group-members a:hover, #sidebar_sprout #icons-nav-sprout .group-members a.active {
+        background-position: -36px -36px;
+    }
+    #sidebar_sprout #panels_sprout {left: 0;overflow: hidden; top: 450px;width:297px;min-height:100%; padding:30px 0 50px;}
+
+    #profile p{margin:0 0 20px;}
+    #sidebar_sprout #profile #social-icons {
+        list-style: none outside none;
+        margin: 0 0 10px -8px;
+        width: 240px;
+    }
+    #sidebar_sprout #profile #social-icons li a {
+        display: block;
+        float: left;
+        height: 30px;
+        margin-bottom: 5px;
+        opacity: 0.3;
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 30px;
+    }
+    #sidebar_sprout #profile #social-icons li a:hover {
+        opacity: 1;
+    }
+    #social-icons a {
+        background: url("http://static.tumblr.com/hugxd2w/zqPm0sed2/social-icons.png") no-repeat scroll 0 0 transparent;
+    }
+    #panels_sprout .sprout_box{display:none;width:300px; padding:0 40px;position:relative; left:-300px;}
+    /*About me Section*/
+    #panels_sprout #profile{display:block;left:0px;}
+    #avatar{display:block; margin:0 auto;width:150px;}
+    #about-me h2{color:#222222; font-size:15px;margin-top:15px;}
+    #sidebar_sprout #panels_sprout #about-me h2{margin-bottom:15px;}
+     #tag_cloud #tag_list{margin:0;}
+    #profile-list #tag_cloud #tag_list li{display:block; font-size: 13px !important;}
+     #tag_cloud #tag_list li a{
+      color: #999999;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 13px;
+}
+ #tag_cloud #tag_list li a:hover{color:#91A223;}
+ 
+ #social-connections #connect-title,.tags h1,.external_links h1,#following-list #connect-title{color:#000 !important;}
+    /*Twitter Section*/
+    #twitter ul{list-style:none;}
+    #twitter .followers{font-family: "adobe-garamond-pro",sans-serif;font-weight:600;font-style:italic;}
+    #sidebar_sprout #twitter ul li{  border-top: 1px solid #EEEEEE;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    #sidebar_sprout #twitter ul li:first-child {
+        border-top: medium none;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #sidebar_sprout #twitter ul li a {
+        color: #91A223;
+    }
+    #sidebar_sprout #twitter ul li a:hover {
+        color: #000000;
+    }
+    #sidebar_sprout #twitter ul li span.tweet_meta a {
+        color: #999999;
+        display: block;
+     
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    #sidebar_sprout #twitter ul li span.tweet_meta a:hover {
+        color: #666666;
+    }
+
+    /*Likes*/
+        #sidebar_sprout #likes {
+        padding-bottom: 100px;
+    }
+      #sidebar_sprout #likes h2{font-style:italic;}
+
+    #sidebar_sprout #likes iframe {
+        height: auto;
+        width: 219px !important;
+    }
+    #sidebar_sprout #likes ul {
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+    }
+    #sidebar_sprout #likes ul li {
+        border-bottom: 1px solid #EEEEEE;
+        margin-bottom: 25px;
+    }
+    .lt-ie9 #sidebar_sprout #likes ul li {
+        overflow-x: hidden;
+        width: 219px !important;
+    }
+    #sidebar_sprout #likes img {
+        height: auto;
+        margin-bottom: 20px;
+        max-width: 219px;
+    }
+    #sidebar_sprout #likes li .like_caption, #sidebar_sprout #panels #likes li p, #likes .like_quote {
+        margin-bottom: 25px;
+    }
+    /*Search*/
+    #searchField{height:32px;color: #666666;width:195px;margin-bottom:15px;}
+    .sprout_box ul{margin:0;}
+    .sprout_box ul li{list-style:none;}
+    .sprout_box ul li a{color:#999999;}
+    .sprout_box ul li a:hover{color:#91A223;}
+    #searchForm input {
+    background: url("http://static.tumblr.com/8flho2v/Ih7lzd4ra/search.png") no-repeat scroll right center white;
+    padding: 5px 20px 5px 5px; 
+    border:1px solid #ccc;
+}
+    /*FOOTER*/
+    #footer{background:#191919;width:100%;min-width:960px;}
+    #footerShadow{background:transparent url("http://sproutskincare.com/portals/_default/skins/sprout/images/footerbackground.png") repeat-x scroll 0 0; height:15px; width:100%;min-width:960px;clear:both;position:relative; top:-8px;margin-bottom:-9px;}
+#footer_container{width:960px; margin:0 auto;}
+/*POST PAGES*/
+
+.post h1{text-align:center;font-size:29px;}
+.post .text-copy{color:#444444 !important;font-size:13px;}
+.post .text-copy p{font-size:13px;}
+.post .text-copy h1,.permalink #content article .text-copy h1{font-size:20px; text-align:left;font-weight:600;}
+.post .text-copy h2,.permalink #content article h2{font-size:18px;font-weight:600;}
+.post .text-copy h3,.permalink #content article h3{font-size:16px;font-weight:600;}
+/*POST PAGE*/
+
+ .permalink-page #sidebar_wrapper_sprout{display:none;}
+ .permalink #content article{padding-right:0px;}
+  .permalink-page #content,.permalink #content article,.permalink #content .post,#content article .comments,.fb_iframe_widget span,.fb_iframe_widget span iframe{width:615px !important;}
+  .permalink-page #content{text-align:justify; margin-right:15px;}
+  #content article .comments{margin-left:0px;}
+  #content article .comments .fb_iframe_widget{margin:0 auto;width:920px !important;}
+  #pagination{padding-right:15px;margin-left:0;width:100%;padding-top:0px;}
+  .permalink #pagination{padding-right:0px;}
+  #pagination .next-prev{float:right;}
+  #pagination .next-prev p{text-align:right;}
+  #pagination .next-prev .next span{margin-right:0;}
+  .clear{clear:both; width:100%;}
+  #right_content{float:right;padding-bottom:50px;}
+                      {CustomCSS}
+	                </style>
+	                <script type="text/javascript">
+
+		                var twitterName = "{text:Twitter Username}";
+		                var tweetNumber = "{text:Number of Twitter Posts}"
+		
+		                var displayFollowers = false;
+		                {block:IfInitialFollowersRowCount}
+		                var displayFollowers = true;
+		                var followersRowCount = '{text:Initial Followers row count}'
+		                {/block:IfInitialFollowersRowCount}
+	                </script>
+                </head>
+                <body class="{block:IndexPage}index-page {/block:IndexPage}{block:PermalinkPage}permalink-page {/block:PermalinkPage}{block:IfSingleColumnLayout}single-column {/block:IfSingleColumnLayout}{block:IfInfiniteScroll}infinite-scroll {/block:IfInfiniteScroll}{block:IfDisplayTwitterFeed}twitter-true {/block:IfDisplayTwitterFeed}">
+
+                <div id="topBar"></div>
+                <header id="header" class="big-bg">
+                <script type="text/javascript">
+                    $(window).load(function () {
+                        $("a", ".profile").trigger("click");
+                        $("a", "#icons-nav-sprout").click(function (e) {
+                            e.preventDefault();
+                            $("a", "#icons-nav-sprout").each(function () {
+                                $(this).removeClass("active");
+                            });
+                            $(this).addClass("active");
+                            var tab = $(this).parent().attr("class");
+                            $(".sprout_box", "#panels_sprout").each(function () {
+                                $(this).hide();
+                                $(this).css("left", "-300px");
+                            });
+                            $("#" + tab, "#panels_sprout").show().animate({ "left": "0px" }, 500, function () {
+                               
+                                  // var x = $("#sidebar_wrapper_sprout").css("height");
+                                   // minheight(x);
+                              
+                            });
+                        });
+                    });
+                    $(document).ready(function () {
+
+                        $(window).scroll(function () {
+                            if ($(window).scrollTop() <= 330) {
+                                $(".header-inner").css({ "z-index": "9999" });
+
+
+                            } else {
+                                $(".header-inner").css({ "z-index": "90" });
+
+                            }
+                            //                        if ($("#header").css("height") == "85px") {
+                            //                            $("#sidebar_wrapper_sprout").css({ "position": "fixed", "top": "150px" });
+                            //                        } else {
+                            //                            $("#sidebar_wrapper_sprout").css({ "position": "absolute", "top": "490px" });
+                            //                        }
+                        });
+
+                    });
+                </script>
+                    <div class="header-inner">
+	                <iframe name="FRAMEBig" scrolling="no" frameborder="0" src="http://sproutskincare.com/blog-hero" allowtransparency="true" marginwidth="0" marginheight="0" height="440px" width="960px">
+                    </iframe>
+	                </div>
+	                <div id="title-small">
+    	                <iframe name="FRAMESmall" scrolling="no" frameborder="0" src="http://sproutskincare.com/blog-hero" allowtransparency="true" marginwidth="0" marginheight="0" height="86px" width="960px">
+                    </iframe>
+                    </div>
+	                <div id="header-pagination">
+		                {block:Pagination}
+		                <p id="page-count">{lang:Page CurrentPage of TotalPages}</p>	
+		                {/block:Pagination}
+		                <p><a class="top" href="#">Scroll to Top</a></p>
+	                </div>
+                </header> <!--close HEADER -->
+
+
+
+                <div id="wrapper" class="{block:PermalinkPage}permalink {/block:PermalinkPage}clearfix">
+                <div id="right_content">
+	                {block:IndexPage}<div id="loader"></div>{/block:IndexPage}
+
+	                <section id="content">
+		                {block:SearchPage}
+		                <article class="highlight search-results"><h2>{lang:Found SearchResultCount results for SearchQuery}</h2>
+
+		                {block:NoSearchResults}<h2>No Posts Found</h2>
+		                <p>Sorry, we couldn't find any posts matching your search query. Please try something else!</p>{/block:NoSearchResults}</article>
+
+		                {/block:SearchPage}
+
+		                {block:Posts}
+		                <article class="{block:Text}type-text {/block:Text}{block:Photoset}type-photoset {/block:Photoset}{block:Photo}type-photo {/block:Photo}{block:RebloggedFrom}type-reblogged {/block:RebloggedFrom}{block:Quote}type-quote {/block:Quote}{block:Link}type-link {/block:Link}{block:Chat}type-chat {/block:Chat}{block:Audio}type-audio {/block:Audio}{block:Video}type-video {/block:Video}{block:Answer}type-answer {/block:Answer}{block:Date}not-page {/block:Date}{block:IfSingleColumnLayout}highlight {/block:IfSingleColumnLayout}clearfix post-{PostID} {TagsAsClasses}" {block:Audio}id="{PostID}"{/block:Audio} {block:Video}id="{PostID}"{/block:Video}>
+
+			                <div class="post clearfix {block:Date}not-page{/block:Date}">
+				                {block:Text}
+				                <img alt="Pencil Icon" class="pencil-icon" src="http://static.tumblr.com/hugxd2w/QPtm2a8z7/icon-pencil.png" style="background-color: {color:Link Color};">
+				                {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+				                <div class="text-copy">
+				                {Body}
+				                </div>
+				                {/block:Text}
+
+				                {block:Photo}
+				                <div class="single-photo">
+		                            <div class="photo">
+		                                <img alt="{PhotoAlt}" src="{PhotoURL-500}" data-clickthrough="{LinkURL}" data-highres="{PhotoURL-HighRes}" {block:Exif}data-camera="{block:Camera}{Camera}{/block:Camera}" data-iso="{block:ISO}{ISO}{/block:ISO}" data-aperture="{block:Aperture}{Aperture}{/block:Aperture}" data-exposure="{block:Exposure}{Exposure}{/block:Exposure}" data-focal="{block:FocalLength}{FocalLength}{/block:FocalLength}"{/block:Exif}>
+		                            </div>
+		                            <div class="icons">
+		                                <a class="view" rel="post-{PostID}" href="{PhotoURL-HighRes}"><span class="zoom">Zoom</span></a>
+		                                {block:Exif}<span class="info">Info</span>{/block:Exif}
+		                            </div>
+		                        </div>
+				                {block:Caption}{Caption}{/block:Caption}
+				                {/block:Photo}
+
+				                {block:Photoset}
+				                <div class="photo-slideshow" data-layout="{PhotosetLayout}">
+
+				                    {block:Photos}
+				                        <div class="photo-data">
+				                            <div class="pxu-photo">
+				                                <img alt="{PhotoAlt}" src="{PhotoURL-500}" data-highres="{PhotoURL-HighRes}" {block:Exif}data-camera="{block:Camera}{Camera}{/block:Camera}" data-iso="{block:ISO}{ISO}{/block:ISO}" data-aperture="{block:Aperture}{Aperture}{/block:Aperture}" data-exposure="{block:Exposure}{Exposure}{/block:Exposure}" data-focal="{block:FocalLength}{FocalLength}{/block:FocalLength}"{/block:Exif}>
+				                            </div>
+				                            <div class="icons">
+				                                <a class="view" rel="post-{PostID}" href="{PhotoURL-HighRes}"><span class="zoom">Zoom</span></a>
+				                                {block:Exif}<span class="info">Info</span>{/block:Exif}
+				                            </div>
+				                        </div>
+				                    {/block:Photos}
+				                </div><!-- close SLIDESHOW -->
+
+				                {block:Caption}{Caption}{/block:Caption}
+
+				                {/block:Photoset}
+
+				                {block:Quote}
+				                <blockquote><img alt="Quote Icon" class="quote-icon" src="http://static.tumblr.com/hugxd2w/abLm2aecg/icon-quote.png" style="background-color: {color:Link Color};">{Quote}</blockquote>
+
+				                {block:Source}<p class="author">{Source}</p>{/block:Source}
+				                {/block:Quote}
+
+
+				                {block:Link}
+				                <div class="link-box">
+					                <img alt="Link Icon" class="link-icon" src="http://static.tumblr.com/hugxd2w/GAjm2a2do/icon-link.png" style="background-color: {color:Link Color};">
+					                <img alt="link Icon Alternate" class="link-icon-normal" src="http://static.tumblr.com/hugxd2w/dAom33vlx/icon-link-normal.png" style="background-color: {color:Link Color};">
+				                <h1><a {Target} href="{URL}">{Name}</a></h1>
+				                </div>
+				                {block:Description}{Description}{/block:Description}
+				                {/block:Link}
+
+
+				                {block:Chat}
+				                <img alt="Chat Icon" class="chat-icon" src="http://static.tumblr.com/hugxd2w/A9zm2af0c/icon-chat.png" style="background-color: {color:Link Color}; {block:Title}border-bottom: 1px solid #d6d6d6;{/block:Title}">
+				                {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+					                <div class="chat-box">{block:Lines}
+					                <p class="chat-{Alt}">{block:Label}<span class="the-who">{Label}</span>{/block:Label} {Line}</p>
+					                {/block:Lines}</div>
+				                {/block:Chat}
+
+
+				                {block:Audio}
+				                <div class="listen clearfix">
+					                <div class="song-info {block:AudioEmbed}spotify{/block:AudioEmbed}">
+						                {block:AudioPlayer}<div class="player {block:AlbumArt}custom-art{/block:AlbumArt}">
+							                {AudioPlayerWhite}
+						                </div>{/block:AudioPlayer} 
+						                {block:TrackName}<h1>{TrackName}</h1>{/block:TrackName}
+						                {block:Artist}<h2>{Artist}</h2>{/block:Artist}
+						                {block:Album}<h3>{Album}</h3>{/block:Album}
+						                <p class="plays">{FormattedPlayCount} {lang:Plays}</p>
+						                {block:ContentSource}
+						                <p class="plays">{lang:Source}: <a href="{SourceURL}">
+        				                {block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo}
+						                </a></p>
+						                {/block:ContentSource}
+						                {block:ExternalAudio}<p class="download"><img alt="Download Icon" src="http://static.tumblr.com/hugxd2w/LvWm2c1hn/icon-download.png" style="background-color: {color:Link Color};"><a href="{ExternalAudioURL}">{lang:Download}</a></p>{/block:ExternalAudio}
+
+						                {block:AudioEmbed}{block:Caption}<div class="audio-caption">{Caption}</div>{/block:Caption}{/block:AudioEmbed}
+
+					                </div>
+
+					                {block:AudioPlayer}<div class="album-art">
+						                {block:AlbumArt}<img alt="" src="{AlbumArtURL}">{/block:AlbumArt}
+					                </div>{/block:AudioPlayer}
+
+					                {block:AudioEmbed}<div class="audio-embed">
+						                {AudioEmbed-400}
+					                </div>{/block:AudioEmbed}
+
+				                </div>
+				
+				                {block:AudioPlayer}{block:Caption}{Caption}{/block:Caption}{/block:AudioPlayer}
+				                {/block:Audio}
+
+
+				                {block:Video}
+				                <div class="video unprocessed">
+					                <div class="corner-a"></div><!-- .corner-a -->
+					                <div class="corner-b"></div><!-- .corner-a -->
+					                <div class="corner-c"></div><!-- .corner-a -->
+					                <div class="corner-d"></div><!-- .corner-a -->
+				                {Video-400}
+				                </div>
+				                {block:Caption}{Caption}{/block:Caption}
+				                {/block:Video}
+
+				                {block:Answer}<div class="question">
+				                <p><span class="asker-avatar"><img alt="" class="asker-avatar" src="{AskerPortraitURL-40}"></span> {Asker} ASKED:</p>
+
+				                <blockquote><p>{Question}</p><hr></blockquote></div>
+
+				                {Answer}
+				                {/block:Answer}
+			                </div><!-- close POST -->
+
+			                {block:IndexPage}<aside>
+				                {block:IfDisplayPostAuthors}<img class="author-avatar" alt="{PostAuthorName} Avatar" src="{PostAuthorPortraitURL-30}">{/block:IfDisplayPostAuthors}
+				                <p class="meta {block:IfDisplayPostAuthors}display-author{/block:IfDisplayPostAuthors}">
+					                {block:IfDisplayPostAuthors}Posted by <a class="alt" href="{PostAuthorURL}">{PostAuthorName}</a><br>{/block:IfDisplayPostAuthors}
+					                {block:RebloggedFrom}Source: <a class="alt source" href="{ReblogParentURL}">{ReblogParentName}</a><br>{/block:RebloggedFrom}
+					                {block:Date}<a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a>{/block:Date}
+					                {block:NoteCount} / <a href="{Permalink}#notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+					                {block:Date}
+					                {block:IfFacebookComments} / <a href="{Permalink}"><fb:comments-count href="{Permalink}"></fb:comments-count> comments</a>
+					                {/block:IfFacebookComments}
+					                {block:IfNotFacebookComments}
+						                {block:IfDisqusComments} / 
+						                <a id="dsq-{PostID}" href="{Permalink}#disqus_thread"><span class="icon"></span>Comments</a>
+						                {/block:IfDisqusComments}
+					                {/block:IfNotFacebookComments}
+					                {/block:Date}
+				                </p>
+			                </aside>{/block:IndexPage}
+
+			                {block:PermalinkPage}<aside>
+				                {block:IfDisplayPostAuthors}<img class="author-avatar" alt="{PostAuthorName} Avatar" src="{PostAuthorPortraitURL-30}">{/block:IfDisplayPostAuthors}
+				                <p class="meta {block:IfDisplayPostAuthors}display-author{/block:IfDisplayPostAuthors}">
+					                {block:IfDisplayPostAuthors}Posted by <a class="alt" href="{PostAuthorURL}">{PostAuthorName}</a><br>{/block:IfDisplayPostAuthors}
+					                {block:RebloggedFrom}Source: <a class="alt source" href="{ReblogParentURL}">{ReblogParentName}</a><br>{/block:RebloggedFrom}
+					                {block:Date}<a class="data" href="{Permalink}">{Month} {DayOfMonth}, {Year}</a><br>{/block:Date}
+					                {block:NoteCount}{NoteCountWithLabel}<br>{/block:NoteCount}
+					                {block:Date}
+					                {block:IfFacebookComments}<fb:comments-count href="{Permalink}"></fb:comments-count> comments<br>
+					                {/block:IfFacebookComments}
+					                {block:IfNotFacebookComments}
+						                {block:IfDisqusComments}<a id="dsq-{PostID}" href="{Permalink}#disqus_thread"><span class="icon"></span>comments</a><br>{/block:IfDisqusComments}
+					                {/block:IfNotFacebookComments}
+					                {/block:Date}
+				                </p>
+			                </aside>{/block:PermalinkPage}
+
+			                <footer>
+				                <div class="footer-meta">
+					                <div class="share">
+						                <span>Share</span>
+						                <div class="buttons">
+							                <span data-permalink="{Permalink}" class="short-url clearfix">{ShortURL}</span>
+							                <div class="googs"></div>
+							                <div class="tweet-tweet"></div>
+		                	                <div class="like-this"></div>
+						                </div>
+					                </div>
+					                {block:HasTags}
+					                <div class="tags">
+						                {block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}
+					                </div>
+				                {/block:HasTags}				
+				                </div><!-- close FOOTER-META -->
+			                </footer>
+
+			                {block:PermalinkPage}
+
+			                {block:PostNotes}
+			                <div id="notes" class="clearfix">
+				                {block:NoteCount}<p class="note-count">{NoteCountWithLabel}</p>{/block:NoteCount}
+
+				                {PostNotes}
+
+			                </div>
+			                {/block:PostNotes}
+
+			                {block:Date}
+			                {block:IfFacebookComments}			
+			                <div class="comments">
+				                <p><fb:comments-count href="{Permalink}"></fb:comments-count> COMMENTS</p>
+
+				                <div class="fb-comments" data-href="{Permalink}" data-num-posts="2" data-width="500"></div>
+			                </div>
+			                {/block:IfFacebookComments}
+			                {block:IfNotFacebookComments}
+				                {block:IfDisqusComments}
+				                {block:IfDisqusShortname}
+				                <div class="comments">
+					                <div id="disqus_thread"></div>
+					                <script type="text/javascript">
+					                    (function () {
+					                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					                        dsq.src = 'http://{text:Disqus Shortname}.disqus.com/embed.js';
+					                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					                    })();
+					                </script>
+					                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={text:Disqus Shortname}">comments powered by Disqus.</a></noscript>
+					                <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+				                </div>
+                                {/block:IfDisqusShortname}
+				                {/block:IfDisqusComments}
+			                {/block:IfNotFacebookComments}
+			                {/block:Date}
+
+			                {/block:PermalinkPage}
+
+		                </article>
+
+		                {/block:Posts}
+
+	                </section><!-- close CONTENT -->
+
+	                <div id="inf-scroll-loader"></div>
+
+	                <div id="pagination">
+		                <div class="next-prev">
+			                {block:PermalinkPagination}
+			                <p>
+			                {block:PreviousPost}<a class="previous" href="{PreviousPost}">{/block:PreviousPost}<span>&lt; {lang:Previous post}</span>{block:PreviousPost}</a>{/block:PreviousPost}
+
+			                {block:NextPost}<a class="next" href="{NextPost}">{/block:NextPost}<span>{lang:Next post} &gt;</span>{block:NextPost}</a>{/block:NextPost}
+
+			                {/block:PermalinkPagination}
+
+			
+			                {block:IndexPage}<p>
+			                {block:NextPage}<a class="previous" href="{NextPage}">{/block:NextPage}<span>&lt; {lang:Older posts}</span>{block:NextPage}</a>{/block:NextPage}
+
+			                {block:PreviousPage}<a class="next" href="{PreviousPage}">{/block:PreviousPage}<span>{lang:Newer posts} &gt;</span>{block:PreviousPage}</a>{/block:PreviousPage}{/block:IndexPage}
+
+
+
+			                {block:PermalinkPagination}&nbsp;</p>{/block:PermalinkPagination}
+			                {block:IndexPage}{lang:Page CurrentPage of TotalPages}</p>{/block:IndexPage}
+		                </div>
+
+		                <!--<div class="pixel-union">
+			                <h3><a href="http://www.pixelunion.net">Theme by <span id="pixel_union_logo">Pixel Union</span></a></h3>
+		                </div>-->
+                        <div class="clear"></div>
+	                </div>
+                    <div class="clear"></div>
+                    </div><!-- End Right Container -->
+	                <div id="sidebar_wrapper_sprout">
+	                <div id="sidebar_sprout">
+		                <ul id="icons-nav-sprout">
+			                <li class="profile"><a href="#" class="active">Profile</a></li>
+			                <li class="pages"><a href="#">Pages</a></li>
+			                {block:IfDisplayTwitterFeed}<li class="twitter"><a href="#">Twitter</a></li>{/block:IfDisplayTwitterFeed}
+			                {block:IfDisplayLikes}{block:Likes}<li class="likes"><a href="#">Likes</a></li>{/block:Likes}{/block:IfDisplayLikes}
+			                {block:IfDisplayGroupMembers}<li class="group-members"><a href="#">Blog Members</a></li>{/block:IfDisplayGroupMembers}
+		                </ul>
+		                <div id="panels_sprout">
+			                <div id="profile"  class="sprout_box">
+				
+				
+				                <ul id="profile-list">
+						                <li id="about-me">
+							                {block:IfAvatarImageImage}
+								                <div id="avatar-wrap">
+									                <img id="avatar" src="{image:Avatar Image}">
+								                </div><!-- #avatar-wrap -->
+							                {/block:IfAvatarImageImage}
+
+							                {block:Description}
+							                <h2>{text:About me title}</h2>
+			                        <p>{Description}</p>
+			                        {/block:Description}
+
+
+                       
+						                </li><!-- #about-me -->
+						
+						                <li id="social-connections" class="clearfix">
+							                <h2 id="connect-title">{text:Social links title}</h2>
+
+							                <ul id="social-icons" class="clearfix">
+								                {block:IfTwitterUsername}
+									                <li><a class="twitter" href="http://www.twitter.com/{text:Twitter Username}" title="@{text:Twitter Username} on Twitter">Twitter</a></li>
+								                {/block:IfTwitterUsername}
+								                {block:IfPinterestUsername}
+									                <li><a class="pinterest" href="http://pinterest.com/{text:Pinterest Username}/" title="{text:Pinterest Username} on Pinterest">Pinterest</a></li>
+								                {/block:IfPinterestUsername}
+								                {block:IfFacebookUsername}
+									                <li><a class="facebook" href="http://www.facebook.com/{text:Facebook Username}" title="Facebook Profile">Facebook</a></li>
+								                {/block:IfFacebookUsername}
+								                {block:IfVimeoUsername}
+				              		                <li><a class="vimeo" href="http://www.vimeo.com/{text:Vimeo Username}" title="{text:Vimeo Username} on Vimeo">Vimeo</a></li>
+				              	                {/block:IfVimeoUsername}
+				              	                {block:IfYoutubeUsername}
+				              		                <li><a class="youtube" href="http://www.youtube.com/{text:Youtube Username}" title="{text:Youtube Username} on Youtube">YouTube</a></li>
+				              	                {/block:IfYoutubeUsername}
+				              	                {block:IfFlickrUsername}
+				              		                <li><a class="flickr" href="http://www.flickr.com/photos/{text:Flickr Username}" title="{text:Flickr Username} on Flickr">Flickr</a></li>
+				              	                {/block:IfFlickrUsername}
+				              	                {block:IfInstagramURL}
+				              		                <li><a class="instagram" href="{text:Instagram URL}" title="My Instagram Profile">Instagram</a></li>
+				              	                {/block:IfInstagramURL}
+				              	                {block:IfLastfmUsername}
+				              		                <li><a class="lastfm" href="http://www.lastfm.com/user/{text:Lastfm Username}" title="{text:Lastfm Username} on Last.fm">Last.fm</a></li>
+				              	                {/block:IfLastfmUsername}
+				              	                {block:IfDribbbleUsername}
+				              		                <li><a class="dribbble" href="http://dribbble.com/players/{text:Dribbble Username}" title="{text:Dribbble Username} on Dribbble">Dribbble</a></li>
+				              	                {/block:IfDribbbleUsername}
+				              	                {block:IfSkypeUsername}
+				              		                <li><a class="skype" href="skype:{text:Skype Username}?userinfo" title="My Skype Info">Skype</a></li>
+				              	                {/block:IfSkypeUsername}
+				              	                {block:IfGooglePlusURL}
+				              		                <li><a class="google_plus" href="{text:Google Plus URL}" title="Google+ Profile">Google+</a></li>
+				              	                {/block:IfGooglePlusURL}
+				              	                {block:IfLinkedinProfileURL}
+					                                 <li><a class="linkedin" href="{text:Linkedin Profile URL}" title="Linkedin Profile"></a></li>
+					                            {/block:IfLinkedinProfileURL}
+					                            {block:IfSvpplyUsername}
+				              		                <li><a class="svpply" href="http://svpply.com/{text:Svpply Username}" title="{text:Svpply Username} on Svpply">Svpply</a></li>
+				              	                {/block:IfSvpplyUsername}
+				              	                {block:IfRdioUsername}    	
+				              		                <li><a class="rdio" href="http://www.rdio.com/#/people/{text:Rdio Username}" title="{text:Rdio Username} on Rdio">Rdio</a></li>
+				              	                {/block:IfRdioUsername}
+				              	                {block:IfFoursquareUsername}
+				              		                <li><a class="foursquare" href="http://foursquare.com/{text:Foursquare Username}" title="{text:Foursquare Username} on Foursquare">FourSquare</a></li>
+				              	                {/block:IfFoursquareUsername}
+				              	                {block:IfGitHubUsername}
+				              		                <li><a class="github" href="http://www.github.com/{text:Git Hub Username}" title="{text:Git Hub Username} on Git Hub">Github</a></li>
+				              	                {/block:IfGitHubUsername}          	
+							                </ul>
+						                </li><!-- #social-connections -->
+						                <li>
+                                        <!-- Subscribe Section -->
+                                        <div class="register">
+                                        <h1>Grow with us!</h1>
+                                 Sign up to receive newsletter updates and special offers:
+                                <iframe src="//sproutskincare.com/tumblr_SubscribeForm.htm" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" height="40px" width="220px"></iframe>
+                            </div>
+                                        </li>
+                                         <li>
+                                         <div class="tags">
+                                         <h1>How to Sprout</h1>
+                                        <!-- Tags Section -->
+                                       <script type="text/javascript" src="http://rive.rs/javascripts/tumblr_tag_cloud.min.js?css=default&minsize=120&maxsize=280"></script>
+                                      
+                                      
+                                        </div>
+                                                                                 
+                                        <!-- External Links Section -->
+                                        <div class="external_links">
+                                        <h1>More about Sprout:</h1>
+                                        <div><a href="http://sproutskincare.com/buzz">Press and Testimonials</a></div>
+                                        <div><a href="http://sproutskincare.com/where-to-buy">Where to Buy</a></div>
+                                                                    </div>
+                                        </li>
+						                {block:IfDisplayFollowing}
+						                {block:Following} 
+						                <li id="following-list">
+							
+							                <h2 id="connect-title">{text:Following title}</h2>
+							
+							                <ul class="clearfix">
+								                {block:Followed}
+								                <li class="following">
+									                <a href="{FollowedURL}" title="{FollowedTitle} by {FollowedName}"><img src="{FollowedPortraitURL-24}" alt="{FollowedTitle} by {FollowedName}"></a>
+								                </li>
+								                {/block:Followed}
+							                </ul>
+							
+							                <a id="show-more-followers" href="#">Show more ↓</a>
+							
+						                </li><!-- #following -->
+						                {/block:Following} 
+						                {/block:IfDisplayFollowing}
+						
+				                </ul>
+				
+			                </div><!-- close PROFILE -->
+			                                                                                <div id="pages" class="sprout_box">
+				            <form id="searchForm" action="/search" method="get">
+					            <input id="searchField" placeholder="Search" type="text" name="q" value="{SearchQuery}" />
+				            </form>
+				            <ul>
+					            <li><a href="{RSS}">{lang:RSS}</a></li>
+					            <li><a href="/archive">{lang:Archive}</a></li>
+					            {block:AskEnabled}<li><a href="/ask">{AskLabel}</a></li>{/block:AskEnabled}
+					            {block:SubmissionsEnabled}<li><a href="/submit">{SubmitLabel}</a></li>{/block:SubmissionsEnabled} 
+				            </ul>
+
+				            {block:HasPages}
+				            <h2>{lang:Pages}:</h2>
+
+				            <ul class="list-pages">
+					            {block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}
+				            </ul>
+				            {/block:HasPages}
+			            </div><!-- close PAGES -->
+			                {block:IfDisplayTwitterFeed}
+			
+			                                                                        <div id="twitter" class="sprout_box">
+				            {block:IfTwitterUsername}
+				            <h2><a href="#">@{text:Twitter Username}</a></h2>
+
+				            <p class="followers"></p>
+<a href="https://twitter.com/{text:Twitter Username}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @{text:Twitter Username}</a>
+				<script>				    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+
+				            <div id="tweet-area"></div>
+				            {/block:IfTwitterUsername}
+				
+				            {block:IfNotTwitterUsername}
+					            <h2 id="twitter-error">Whoops!</h2>
+					            <p>You need to enter your twitter username in the <a href="http://www.tumblr.com/customize/{name}">customization screen</a></p>
+				            {/block:IfNotTwitterUsername}
+				
+			            </div><!-- close TWITTER -->
+			                {/block:IfDisplayTwitterFeed}
+			                {block:IfDisplayLikes}{block:Likes}
+			                            <div id="likes"class="sprout_box">
+
+				            <h2>Stuff I Like</h2>
+
+				            {Likes limit="5" summarize="100"}
+
+			            </div><!-- close LIKES -->
+			                {/block:Likes}{/block:IfDisplayLikes}
+			                {block:IfDisplayGroupMembers}
+			                                    <div id="group-members" class="box">
+
+				            <h2>Blog Members</h2>
+
+				            {block:GroupMembers}<ul>
+				            {block:GroupMember}<li><a href="{GroupMemberURL}"><img alt="" src="{GroupMemberPortraitURL-24}"> {GroupMemberName}</a></li>{/block:GroupMember}
+				            </ul>{/block:GroupMembers}
+
+			            </div><!-- close GROUP MEMBERS -->
+			                {/block:IfDisplayGroupMembers}
+		                </div><!-- close PANELS -->
+	                </div><!-- close SIDEBAR -->
+	                </div>
+                    <div class="clear"></div>
+                </div><!-- close WRAPPER -->
+                 <div id="footerShadow"></div>
+                <div id="footer">
+               
+                <div id="footer_container">
+             <iframe name="FRAMEFooter" scrolling="no" frameborder="0" src="http://sproutskincare.com/blog-footer" allowtransparency="true" marginwidth="0" marginheight="0" height="290px" width="960px"></iframe>
+               </div> </div><!-- close FOOTER -->
+
+                <script>                    window.jQuery || document.write('<script src="http://static.tumblr.com/hugxd2w/0r8m0w5nm/jquery-1.7.1.min.js"><\/script>')</script>
+                <script src="http://static.tumblr.com/hugxd2w/xsrm4jkz7/plugins.min.js"></script>
+                <script src="http://static.tumblr.com/gmeghwp/zvjlvwfbn/view.js?auto"></script>
+                <script src="http://static.tumblr.com/hugxd2w/bGam5tyzn/script.min.js"></script>
+                <script>
+                $(document).ready(function() {
+	                $('.photo-slideshow').pxuPhotoset({
+		                highRes: false,
+		                gutter: '5px',
+		                photo: '.pxu-photo',
+	                });
+
+       
+                });	
+                </script>
+                <script>
+	                {block:IfGoogleAnalyticsShortcode}
+		                var _gaq=[['_setAccount','{text:Google Analytics Shortcode}'],['_trackPageview']];
+		                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		                s.parentNode.insertBefore(g,s)}(document,'script'));
+	                {/block:IfGoogleAnalyticsShortcode}
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+
+                {block:IfFacebookComments}
+                <div id="fb-root"></div>
+                <script>                    (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    } (document, 'script', 'facebook-jssdk'));</script>
+                {/block:IfFacebookComments}
+
+                {block:IfDisqusComments}
+                {block:IfDisqusShortname}
+                <script type="text/javascript">
+                    var disqus_shortname = '{text:Disqus Shortname}';
+                    (function () {
+                        var s = document.createElement('script'); s.async = true;
+                        s.src = 'http://disqus.com/forums/{text:Disqus Shortname}/count.js';
+                        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                    } ());
+                </script>
+                {/block:IfDisqusShortname}
+                {/block:IfDisqusComments}
+
+                <script>
+                    var themeTitle = "Juneau Theme";
+                    var url = "http://juneau-theme.tumblr.com";
+                    (function () {
+                        var pxu = document.createElement('script'); pxu.type = 'text/javascript'; pxu.async = true; pxu.src = 'http://cdn.pixelunion.net/customize/pxucm.js';
+                        var isCustomize = (window.location.href.indexOf('/customize/') >= 0) ? true : false;
+                        var isDemo = (window.location.href.indexOf(url) >= 0) ? true : false;
+                        (isCustomize || isDemo) && ((document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(pxu));
+                    })();
+                </script>
+
+                </body>
+                </html>

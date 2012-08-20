@@ -1,0 +1,433 @@
+<portal version="3.0">
+  <description>partner page template</description>
+  <tabs>
+    <tab>
+      <containersrc />
+      <description />
+      <disabled>false</disabled>
+      <enddate>0001-01-01T00:00:00</enddate>
+      <issecure>false</issecure>
+      <visible>true</visible>
+      <keywords />
+      <pageheadtext />
+      <permanentredirect>false</permanentredirect>
+      <refreshinterval>-1</refreshinterval>
+      <sitemappriority>0.5</sitemappriority>
+      <skinsrc>[G]Skins/SKP/partners.ascx</skinsrc>
+      <startdate>0001-01-01T00:00:00</startdate>
+      <name>Richard L. Koenigsberg, CPA</name>
+      <title />
+      <url type="Normal" />
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>All Users</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+      </tabpermissions>
+      <tabsettings>
+        <tabsetting>
+          <settingname>CacheIncludeExclude</settingname>
+          <settingvalue>0</settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>CacheDuration</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>IncludeVaryBy</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>CacheProvider</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>MaxVaryByCount</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+        <tabsetting>
+          <settingname>ExcludeVaryBy</settingname>
+          <settingvalue>
+          </settingvalue>
+        </tabsetting>
+      </tabsettings>
+      <panes>
+        <pane>
+          <name>hero_content_pane</name>
+          <modules>
+            <module>
+              <moduleID>444</moduleID>
+              <title>Hero Content</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h1&amp;gt;About Spielman Koenigsberg &amp;amp;amp; Parker, LLP&amp;lt;/h1&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>partner_headline</name>
+          <modules>
+            <module>
+              <moduleID>445</moduleID>
+              <title>Partner Headline</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h2&amp;gt;Partners&amp;lt;/h2&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>ContentPane</name>
+          <modules>
+            <module>
+              <moduleID>446</moduleID>
+              <title>Partner Content</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h3&amp;gt;Richard L. Koenigsberg, CPA&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;A CPA since 1979, and a Partner at Spielman Koenigsberg &amp;amp;amp; Parker since 1986, Richard Koenigsberg is a noted expert in individual and corporate taxation&amp;amp;mdash;both domestic and international&amp;amp;mdash;appearing on broadcast and cable networks as well as being widely quoted in major newspaper articles. He has served on various industry committees including those involved with entertainment, financial media and taxation. He currently serves as the North American board member of FIDUNION INTERNATIONAL, a global network of independent certified public accounting and management consulting firms with more than 260 offices worldwide.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;While Richard&amp;amp;rsquo;s clientele&amp;amp;mdash;including individuals and corporations&amp;amp;mdash;cover a broad spectrum, he concentrates his practice in the areas of financial management &amp;amp;amp; taxation in the fields of advertising, entertainment, media and professional practices. He is best known for his ability to simplify and provide reasonable solutions to complex issues, whether they are budgets, taxes or financial &amp;amp;amp; estate plans.&amp;lt;/p&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>partner_photo</name>
+          <modules>
+            <module>
+              <moduleID>447</moduleID>
+              <title>Partner Photo</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod>FileModuleCachingProvider</cachemethod>
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_richard.jpg&amp;quot; /&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings>
+                <modulesetting>
+                  <settingname>HtmlText_ReplaceTokens</settingname>
+                  <settingvalue>False</settingvalue>
+                </modulesetting>
+                <modulesetting>
+                  <settingname>WorkflowID</settingname>
+                  <settingvalue>1</settingvalue>
+                </modulesetting>
+              </modulesettings>
+              <tabmodulesettings>
+                <tabmodulesetting>
+                  <settingname>hideadminborder</settingname>
+                  <settingvalue>False</settingvalue>
+                </tabmodulesetting>
+              </tabmodulesettings>
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>footer_testimonial_content_pane</name>
+          <modules>
+            <module>
+              <moduleID>448</moduleID>
+              <title>Footer Testimonial</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;p&amp;gt;
+&amp;lt;strong&amp;gt;Aliquam venenatis consequat leo nec blandit. Praesent at mauris nec eros consectetur
+ulpate a eget mauris.&amp;lt;/strong&amp;gt; - John Smith, CEO, Company&amp;lt;/p&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>partner_list</name>
+          <modules>
+            <module>
+              <moduleID>449</moduleID>
+              <title>Partner List</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;table&amp;gt;
+    &amp;lt;tbody&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_richard.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Richard L.&amp;lt;br /&amp;gt;
+            Koenigsberg,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_gary.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Gary S.&amp;lt;br /&amp;gt;
+            Parker,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_lawrence.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Lawrence J.&amp;lt;br /&amp;gt;
+            Speielman,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_jon.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Jonathan B.&amp;lt;br /&amp;gt;
+            Taylor,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_donna.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Donna J.&amp;lt;br /&amp;gt;
+            Naveo,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA, MBA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;a href=&amp;quot;/about-us/partners/richard-l.-koenigsberg-cpa&amp;quot;&amp;gt;
+            &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/partner_210x256_dan.jpg&amp;quot; /&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dan&amp;lt;br /&amp;gt;
+            Lipman,&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;CPA&amp;lt;/p&amp;gt;
+            &amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+    &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>partner_contact_info</name>
+          <modules>
+            <module>
+              <moduleID>450</moduleID>
+              <title>partner_contact_info</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>1200</cachetime>
+              <cachemethod />
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>false</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+              </modulepermissions>
+              <content type="DNNHTML" version="06.00.01"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Contact Richard L. Koenigsberg&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;(e) &amp;lt;img src=&amp;quot;{{PortalRoot}}/Images/email.png&amp;quot; alt=&amp;quot;email&amp;quot; /&amp;gt;&amp;lt;a href=&amp;quot;mailto:rkoenigsberg@skpny.com&amp;quot; class=&amp;quot;ApplyClass&amp;quot;&amp;gt;rkoenigsberg@skpny.com&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;(p) &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/phone.png&amp;quot; /&amp;gt;212-453-2510&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;(f) &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}/Images/fax.png&amp;quot; /&amp;gt;212-453-2594&amp;lt;/p&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+              <modulesettings />
+              <tabmodulesettings />
+              <definition>DNN_HTML</definition>
+              <moduledefinition>Text/HTML</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+      </panes>
+    </tab>
+  </tabs>
+</portal>

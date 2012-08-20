@@ -1,0 +1,36 @@
+﻿#smakk-content-holder{}
+#smakk-content-wrapper{margin-top: 73px;}
+.rightSection{float:left;width:585px; position:relative;margin-left:50px;}
+
+/*##### Side Nav ######*/
+#sideNav{float:left;width:318px; height:100%;position:relative;margin-bottom:4px;  }
+#sideNav .topSection{width:318px; height:276px; background:#fff url(images/contact/sidebarTop.png) no-repeat scroll 0 0 ;margin-left:-11px;}
+#sideNav .register{color: #FFFFFF; font-family: "proxima-nova",sans-serif; font-size: 15px; font-weight: 600;width:269px;padding: 15px 15px 0; position: absolute; text-align: center;top:25px; left:10px;}
+
+
+
+#sideNav .facebook{width:318px; position:absolute; top:160px; left:10px;}
+#sideNav .facebook p{color:#ccc;  font-size:17px; margin-left:45px;font-family: "adobe-garamond-pro",sans-serif;font-style:italic; font-weight:700;margin-bottom:10px;}
+#sideNav .facebook .left{border-right:1px solid #666;padding-left:45px;width:95px; float:left;}
+#sideNav .facebook .left a{position:relative; top:-17px; margin-left:10px;background:transparent url(images/facebooklogo.png) no-repeat; display:inline-block; height:40px; width:40px;}
+#sideNav .facebook .left a:hover{background-position: 0px -40px;}
+#sideNav .facebook .right{width:95px; padding-left:15px;float:left;margin:0;}
+#sideNav .facebook .right  a{ margin-left:10px;position:relative; top:-17px;background:transparent url(images/twitterLogo.png) no-repeat; display:inline-block; height:40px; width:40px;}
+#sideNav .facebook .right a:hover{background-position: 0px -42px;}
+.socialLink{ float:left; height:32px; color:#ccc;padding-top:5px;}
+
+/*##### ContentPane #####*/
+.ContentPane{ margin-bottom:50px;}
+.ContentPane h1{font-size:28px;font-weight:600;margin-top:45px; text-transform:uppercase;font-family: "adobe-garamond-pro",sans-serif;}
+.ContentPane p{font-size:20px;font-weight:600;}
+.ContentPane p span,.ContentPane .Addy{font-size:16px;font-weight:500;color:#666666;}
+.ContentPane p a{font-size:16px;background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px;color:#91a223;}
+.ContentPane p a:hover{background-position: right -21px; text-decoration:none;color:#c1d72e;}
+
+#smakk-page-wrapper{ background:transparent url(images/sidebarRepeat.png) repeat-y scroll top center ;}
+#smakk-nav{ margin-left:0; }
+#navLogo{top:16px;}
+#smakk-nav a{background-position: 0 -5px; background-color:#fff;}
+#navLogo a{background: #fff url(images/logoSpecial.png) no-repeat scroll 0 0; height:86px; margin-left:-13px;}
+#navLogo a:hover {background-position: 0 -87px;}
+.bottomSection{height:23px;width:982px;background:#fff url(images/sidebarBottom.png) no-repeat scroll 0 0 ;position:relative; bottom:291px; margin:0 auto;}

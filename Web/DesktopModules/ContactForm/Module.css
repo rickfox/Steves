@@ -1,0 +1,28 @@
+﻿/*div.contact-form div.field-row {clear:both; margin-bottom:5px;}
+
+div.contact-form span.required {color:Red;}
+
+div.contact-form span.label {width:125px; text-align:right; float:left; margin-right:5px;}
+
+div.contact-form .field {width:350px;}
+
+div.contact-form .validator {font-size:8pt;}
+
+div.contact-form textarea.field {height:100px;}
+
+div.contact-form a.submit {display:block; margin-left:auto; margin-right:auto; text-align:center;}*/
+.contact-form{padding-left:305px; border-top:1px solid #ccc;}
+.contact-form h3{margin:25px 0 25px 15px;padding-bottom:5px; border-bottom:1px solid #ccc;}
+div.contact-form span.label {display:block;}
+
+div.contact-form .field-row{display:inline-block; margin-left:15px;}
+div.contact-form .field {width:191px; height:20px; margin-bottom:10px; border:1px solid #ccc; font-size:13px;font-family:Myriad Pro; padding:5px;}
+div.contact-form textarea.field {height:150px;width:636px; padding:5px;}
+div.contact-form span.required {color:Red;  }
+div.contact-form span.validator {color:Red; }
+div.contact-form .button_wrapper{margin-left:15px;}
+div.contact-form .relativity_button{display:inline-block; margin-top:5px; height:35px; width:80px;text-align:center;font-size:12px;font-weight:700;color:#7a7a7a;background:transparent url(/Portals/_default/Skins/SKP/images/ContactUs/grey_button.png) no-repeat 0 0;}
+div.contact-form .btn{ vertical-align:middle; display:block; padding-top:11px;}
+div.contact-form table,div.contact-form td{padding:0; margin:0; border:none; width:100%; }
+.btn:hover{text-decoration:none;}
+div.contact-form .lightText{color : #9B9B9B; font-style:italic; font-family:Myriad Pro; font-weight:600;}

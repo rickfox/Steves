@@ -1,0 +1,117 @@
+<%@ Control Language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Skin" %>
+<%@ Register TagPrefix="dnn" TagName="LANGUAGE" Src="~/Admin/Skins/Language.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="TEXT" Src="~/Admin/Skins/Text.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="BREADCRUMB" Src="~/Admin/Skins/BreadCrumb.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LEFTMENU" Src="~/Admin/Skins/LeftMenu.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LINKS" Src="~/Admin/Skins/Links.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="PRIVACY" Src="~/Admin/Skins/Privacy.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="TERMS" Src="~/Admin/Skins/Terms.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="STYLES" Src="~/Admin/Skins/Styles.ascx" %>
+<%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.DDRMenu.TemplateEngine" Assembly="DotNetNuke.Web.DDRMenu" %>
+<%@ Register TagPrefix="dnn" TagName="MENU" Src="~/DesktopModules/DDRMenu/Menu.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="SMaKKSitesNav" Src="~/Admin/Skins/SMaKKSitesNav.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="SMaKKSitesFooter" Src="~/Admin/Skins/SMaKKSitesFooter.ascx" %>
+<div id="fb-root">
+</div>
+<script type="text/javascript">    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+<dnn:STYLES runat="server" ID="StylesIE7" Name="IE7Minus" StyleSheet="ie7skin.css"
+    Condition="LT IE 8" UseSkinPath="true" />
+
+<div id="ControlPanelWrapper">
+    <dnn:CONTROLPANEL runat="server" ID="cp" IsDockable="True" />
+</div>
+<div id="smakk-page-wrapper" class="smakk-page-<%=PortalSettings.ActiveTab.BreadCrumbs(0).TabName.toLower.Replace(" ","_")%>">
+    <div id="smakk-header-wrapper">
+        <div id="smakk-header">
+            <div id="smakk-nav">
+                <div id="navLogo">
+                    <a href="/"></a>
+                </div>
+                <dnn:SMaKKSitesNav ID="SMaKKSitesNav1" runat="server"></dnn:SMaKKSitesNav>
+            </div>
+        </div>
+    </div>
+    <div id="smakk-hero-outer-wrapper">
+        <div id="hero_content">
+            <div class="heroImage" id="heroImage" runat="server">
+            </div>
+            <div class="hero_content_pane" id="hero_content_pane" runat="server">
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div id="smakk-hero-wrapper">
+            <div id="heroContainerQuote" class="heroContainerQuote" runat="server">
+            </div>
+        </div>
+    </div>
+    <div id="smakk-content-wrapper">
+        <div class="lower-shadow">
+        </div>
+        <div id="smakk-content">
+            <div class="topRow">
+                <div class="left" id="topLeft" runat="server">
+                    <img alt="Truely All Natural Sustainable SkinCare" src="/portals/_default/skins/sprout/images/about/trulyallnatural.png" />
+                </div>
+                <div class="right" id="topRight" runat="server">
+                    <img alt="Holistic and HandMade" src="/portals/_default/skins/sprout/images/about/holistichandmade.png" />
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="middleRow">
+                <img class="middleImg" alt="supports small farms" src="/portals/_default/skins/sprout/images/about/supports.png" />
+                <div class="middleRowText" id="middleRowText" runat="server">
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="bottomRow">
+                <div id="leftPane" class="leftPane" runat="server">
+                    <img alt="Ethically Sourced" src="/portals/_default/skins/sprout/images/about/ethically.png" />
+                </div>
+                <div id="rightPane" class="rightPane" runat="server">
+                    <img alt="Simplicity is the Essance of Awesome" src="/portals/_default/skins/sprout/images/about/simplicity.png" />
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="upper-shadow"></div>
+        <div id="smakk-lower-content">
+            <div id="ContentPane" class="ContentPane" runat="server">
+            </div>
+            <img class="adina-signature" src="<%=SkinPath%>/images/adina-signature.png" alt="- Adina" />
+        </div>
+    </div>
+</div>
+<div id="smakk-footer-wrapper">
+    <dnn:SMaKKSitesFooter runat="server"></dnn:SMaKKSitesFooter>
+</div>
+<script runat="server">
+    'for mega menu we need to register hoverIntent plugin, but avoid duplicate registrations
+    Protected Overrides Sub OnLoad(ByVal e As System.EventArgs)
+        MyBase.OnLoad(e)
+        Page.ClientScript.RegisterClientScriptInclude("hoverintent", ResolveUrl("~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js"))
+        Page.ClientScript.RegisterClientScriptInclude("typekit_include", "http://use.typekit.com/lwp5dbq.js")
+        Page.ClientScript.RegisterClientScriptInclude("smakksites", SkinPath & "scripts/smakksites.js")
+        Page.ClientScript.RegisterClientScriptInclude("default_skin_script", SkinPath & "scripts/default.js")
+        '-- stop the slideshow if in edit mode
+        If IsEditMode() Then
+            Page.ClientScript.RegisterClientScriptBlock(Me.GetType, "editmode-cycle-stop", "editMode = true;", True)
+        End If
+    End Sub
+</script>

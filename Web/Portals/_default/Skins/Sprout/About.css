@@ -1,0 +1,55 @@
+﻿#navLogo{position:absolute; top: 12px; left:0px;}
+#navLogo a{display:block; height:101px; width:318px; background: transparent url(images/logo-sprout.png) no-repeat scroll 0 0;}
+#navLogo a:hover{background-position: 0 -101px;}
+#smakk-header{height:110px;}
+
+
+/*##### About #####*/
+#smakk-page-wrapper{padding-bottom:300px;}
+ #smakk-hero-wrapper{background:#000; height:90px;}
+ #smakk-content-wrapper{background:#fafafa;}
+#smakk-content-wrapper .lower-shadow{background:url(images/lower-shadow.png) repeat-x left top; height:17px;margin-bottom:25px;}
+ #smakk-content-wrapper .upper-shadow{background:url(images/gradDivider.png) repeat-x left bottom; height:17px;}
+ #smakk-lower-content {background:#fff; padding-top:95px;}
+ #smakk-lower-content .adina-signature {display:block; margin-left:auto; margin-right:auto; margin-bottom:80px;}
+ heroContainerQuote,#hero_content{width:960px; margin:0 auto;}
+.heroContainerQuote .Normal{text-align:center;}
+.heroContainerQuote .Normal img{margin-top:15px; }
+.hero_content_pane,.heroImage{float:left;}
+.heroImage{width:400px;}
+.hero_content_pane{width:540px;margin-left:20px;}
+.hero_content_pane h1{font-family: "adobe-garamond-pro",sans-serif;font-style:italic; font-weight:600;font-size:56px;}
+.hero_content_pane p{font-size:20px; color:#999999;font-weight:600;}
+.hero_content_pane p a{color:#91a223;font-size:18px; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px; display:inline-block;margin-right:15px; font-weight:500;}
+.hero_content_pane p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.hero_content_pane p a.line{border-left:1px solid #000; padding-left:15px;margin-right:0;}
+.ContentPane{width:960px; margin-left:auto; margin-right:auto; margin-bottom:15px; border-top:3px solid #000; text-align:center; position:relative;}
+.ContentPane h2{font-size:33px; color:#999;font-style:italic;font-family: "adobe-garamond-pro",sans-serif; font-weight:600; margin-bottom:10px; margin-top:40px;}
+.ContentPane .Normal p a{font-size:18px; color:#91a223; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px;}
+.ContentPane .Normal p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.ContentPane .Normal  img{position:relative; top:10px;}
+.leftPane,.rightPane{width:460px; float:left;margin-bottom:50px;}
+.rightPane{padding-left:35px;}
+.leftPane{border-right:1px solid #000;}
+.leftPane h3,.rightPane h3{font-size:22px; font-weight:600; font-style:italic;font-family: "adobe-garamond-pro",sans-serif;margin:0;}
+.leftPane .smakk-container .Normal p ,.rightPane .smakk-container .Normal p{margin:0;}
+
+.leftPane p a,.rightPane p a{color:#91a223; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px; font-size:18px;}
+.leftPane p a:hover,.rightPane p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+
+.topRow{border-bottom:2px solid #000;padding-top:25px;}
+.topRow .left,.topRow .right{width:420px;float:left;}
+.topRow .left .Normal,.topRow .right .Normal p{text-align:justify;font-size:16px; color:#666; font-weight:500;}
+.topRow .left{ padding:0 55px 55px 0;}
+.topRow .right{padding:0 0 55px 55px;border-left:2px solid #000;}
+.topRow .right img{padding:5px 0 14px 0;}
+.middleRow{padding:55px 0;}
+.middleRow .middleImg{ float:left; width:198px; padding-top:8px;}
+.middleRow .middleRowText{float:left; width:725px; margin-left:20px;margin:0;}
+.middleRow .middleRowText .Normal p{text-align:justify;font-size:16px; color:#666;font-weight:500;padding-left:25px; margin-top:0;}
+.bottomRow{border-top:2px solid #000;}
+.bottomRow .leftPane{width:316px;float:left;padding:35px 0 0 0; border:none;}
+.bottomRow .leftPane .Normal p,.bottomRow .rightPane .Normal p{font-size:16px; color:#666;font-weight:500;text-align:justify;}
+.bottomRow .leftPane .Normal p{width:268px;}
+.bottomRow .leftPane  img{padding-bottom:35px;}
+.bottomRow .rightPane {float:left; width:580px; padding:35px 0 0 45px;border-left:2px solid #000; text-align:center;}

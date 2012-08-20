@@ -1,0 +1,60 @@
+﻿/*########## Generic Styles ##########*/
+html, body, form {margin:0;padding:0; height:100%; min-width:1050px;   font-family: "ff-meta-serif-web-pro",serif;font-weight:500;}
+body{ background:transparent url(images/footer_background.jpg) repeat scroll center top;}
+#smakk-content,.footerContainer,#smakk-header {width:960px; margin:0 auto; }
+
+iframe{border:none;}
+.clear {clear:both;}
+
+/*##### Link Styles #####*/
+a{text-decoration:none;outline:0; color:#75ccd2;}
+a:hover{text-decoration:none; color: #464646;}
+a img,a:focus {border:none;outline:0;}
+
+/*##### Button Styles #####*/
+a.button{font-size:22px;color:#fff;padding:6px 13px; background:#72ccd2;text-transform:uppercase;}
+a.button:hover{background:#464646;}
+
+/*########## Header ##########*/
+#smakk-header-wrapper{background:transparent url(images/sitenav_background.png) repeat-x scroll 0 0;height:71px;margin-bottom:-12px;position:relative; z-index:9999;}
+
+/*##### Site Nav #####*/
+#navLogo{position:absolute; top:7px; left:0px;display:block; height:48px; width:143px;}
+
+#smakk-nav{padding-top:10px; position:relative;margin-left:-11px;margin-bottom:65px;}
+#smakk-nav ul{position:absolute;left:350px;margin-top: 9px;}
+#smakk-nav li{ list-style:none; float:left;font-size:22px; font-family: "Alternate-gothic-no-2-d";font-weight:400;text-transform:uppercase; margin-right:64px;}
+#smakk-nav li a{color:#fff;}
+#smakk-nav li>a:hover{color:#464646;}
+
+
+#smakk-nav .shoppingCart{width:140px; position:absolute; right:0px; margin-right:15px;top:0px;}
+#smakk-nav .shoppingCart iframe {width:140px; height:70px;}
+
+/*##### Site Nav COLOR FOR SELECTED PAGE #####*/
+.smakk-page-our_story #smakk-nav .ourStory,
+.smakk-page-about #smakk-nav .about,
+.smakk-page-blog #smakk-nav .blog,
+.smakk-page-contact #smakk-nav .contact{color:#94a223;}
+
+
+/*########## Content ##########*/
+#smakk-content-wrapper{ background:transparent url(images/burlap_background.jpg) repeat scroll center top;}
+#smakk-content{position:relative;}
+
+
+/*########## Footer ##########*/
+#smakk-footer-wrapper{padding-top:10px;}
+#footer_dots{height:29px; background: transparent url(images/footer_dots.jpg) repeat-x scroll 0 0;}
+
+/*########## Typekit FONTS ##########*/
+
+/*
+Regular: font-family: "ff-meta-serif-web-pro",serif;font-weight:500;
+BOLD: font-family: "ff-meta-serif-web-pro",serif;font-weight:700;
+
+Thin: font-family: "alternate-gothic-no-1-d",serif;font-weight:400;
+Regular: font-family: "alternate-gothic-no-2-d",serif;font-weight:400;
+BOLD: font-family: "alternate-gothic-no-3-d",serif;font-weight:400;
+
+*/

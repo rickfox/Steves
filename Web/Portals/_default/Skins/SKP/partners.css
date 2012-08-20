@@ -1,0 +1,44 @@
+﻿/*partner headline*/
+    #smakk-content .partner-headline .Normal h2 
+    {
+        border-top: 1px solid #d1cfcf; border-bottom: 1px solid #d1cfcf; 
+        background:url(images/partner-list-h2-background.gif) repeat scroll left top; 
+        text-align:left; font-weight:bold;
+        font-size:20px; padding-top:15px; padding-bottom:15px; padding-left:20px;
+        margin-top:0px;
+    }
+
+/*left column*/
+    #left-column {float:left;}
+    #left-column .smakk-container {margin-bottom:0;}
+    /*partner photo*/
+        
+        #smakk-content .partner-photo
+        {
+            position:relative;
+            width:222px;
+            height:269px;
+            background: url(images/partner-photo-background.png) no-repeat left top;
+            margin-bottom:15px;
+        }
+        #smakk-content .partner-photo .Normal img {position:absolute; top:5px; left:5px;}
+    
+    /*partner-contact-info*/
+        #smakk-content .partner-contact-info .Normal p {font-weight:300}
+        #smakk-content .partner-contact-info .Normal p strong {font-weight:500}
+        #smakk-content .partner-contact-info .Normal img {margin-right:3px;}
+
+/*right column*/
+    #right-column {float:right; width:640px;}
+    #right-column .smakk-container {margin-bottom:0;}
+
+/*partner divider*/
+    #partner_divider {margin-bottom:30px; margin-top:15px;}
+
+/*partner-list*/
+    #smakk-content .partner-list td {position:relative; width:155px; height:322px; background:url(images/partner-list-background.png) no-repeat scroll left top; vertical-align:top;}
+    #smakk-content .partner-list td a {display:block; position:relative; height:112px; padding-top:210px; padding-left:11px; color:#818181; font-weight:300;}
+    #smakk-content .partner-list td a:hover {text-decoration:none;}
+    #smakk-content .partner-list td a strong {color:#000; font-weight:500;}
+    #smakk-content .partner-list td img {position:absolute;left:5px; top:6px; height:168px; width:137px;}
+    

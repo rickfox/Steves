@@ -1,0 +1,34 @@
+﻿#navLogo{position:absolute; top: 12px; left:0px;}
+#navLogo a{display:block; height:101px; width:318px; background: transparent url(images/logo-sprout.png) no-repeat scroll 0 0;}
+#navLogo a:hover{background-position: 0 -101px;}
+#smakk-header{height:110px;}
+
+
+/*##### Our Story #####*/
+ #smakk-hero-wrapper{background:#000; height:91px;}
+ .heroShaddow{background:#fafafa url(images/ourstory/horizontalbarShaddow.png) repeat-x scroll 0 bottom; height:28px;}
+.heroContainerQuote,#hero_content{width:960px; margin:0 auto;}
+.heroContainerQuote .Normal{text-align:center;}
+.heroContainerQuote .Normal img{margin-top:15px; padding-left:160px;}
+.hero_content_pane,.heroImage{float:left;}
+.heroImage{width:400px;margin-bottom:-90px;}
+.hero_content_pane{width:550px;}
+.hero_content_pane p{font-size:20px; color:#999999;font-weight:600;}
+.hero_content_pane p a{color:#91a223; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px}
+.hero_content_pane p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.ContentPane{margin-bottom:50px;}
+.ContentPane p{font-size:16px; color:#666666; margin-top:0; padding-top:16px;}
+.leftPane,.rightPane{width:460px; float:left;margin-bottom:50px;}
+.rightPane{padding-left:35px;}
+.leftPane{border-right:1px solid #000;}
+.leftPane h3,.rightPane h3{font-size:22px; font-weight:600; font-style:italic;font-family: "adobe-garamond-pro",sans-serif;margin:0;}
+.leftPane .smakk-container .Normal p ,.rightPane .smakk-container .Normal p{margin:0;}
+.leftPane p a,.rightPane p a{color:#91a223; background:transparent url(images/arrowhover.png) no-repeat scroll right 2px; padding-right:22px; font-size:18px;}
+.leftPane p a:hover,.rightPane p a:hover{ background-position: right -21px; text-decoration:none;color:#c1d72e;}
+.gradContainer{background: #fafafa url(images/gradDivider.png) repeat-x scroll 0 bottom ; margin-bottom:45px;padding-bottom: 40px;}
+.bottomWrapper{background:#fff;text-align:center;}
+.bottomContent{width:960px; margin:0 auto; text-align:center; margin-bottom:25px;}
+
+.bottomContent h2{color: #999; font-family: "adobe-garamond-pro",sans-serif; font-size: 33px; font-style: italic; font-weight: 600; margin-bottom: 10px;margin-top:0;}
+.bottomContent p a{background: url("images/arrowhover.png") no-repeat scroll right 2px transparent; color: #91A223; font-size: 18px; padding-right: 22px;}
+.bottomContent p a:hover{background-position: right -21px; text-decoration: none;color:#c1d72e;}

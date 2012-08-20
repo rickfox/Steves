@@ -1,0 +1,19 @@
+﻿.home #smakk-hero-wrapper {height:512px; background:url(images/home-hero-background.png) repeat-x scroll left top; position:relative;}
+.home-hero-frame {height:509px; width:100%;}
+.home-hero-frame .DnnModule {position:static;}
+#home-hero-frame-1 {background:url(images/hero-frame-1.jpg) no-repeat scroll center top;}
+#home-hero-frame-2 {background:url(images/hero-frame-2.jpg) no-repeat scroll center top;}
+#home-hero-frame-3 {background:url(images/hero-frame-3.jpg) no-repeat scroll center top;}
+.home #smakk-content {padding-top:60px; background:url(images/skp-home-logo.png) no-repeat scroll 183px 160px;}
+.home #smakk-content .Normal {font-size:16px;}  
+.home #smakk-content .Normal p {margin-bottom:30px;}
+.home-hero-content {position:relative; width:960px; margin-left:auto; margin-right:auto; height:464px; padding-top:45px; padding-left:20px;}
+.home-hero-content .Normal {color:#fff; font-family:museo, Sans-Serif; text-shadow: 2px 2px 2px #333;}     
+.home-hero-content .Normal h1, .home-hero-content .Normal h1 a {font-weight:700; font-size:35px; margin:0; text-decoration:none; color:#fff;}     
+.home-hero-content .Normal p, .home-hero-content .Normal p a {font-size:21px; font-weight:300; text-decoration:none; color:#fff;}                         
+.home-hero-content .Normal h2 {width:960px; position:absolute; text-align:center; bottom:35px; left:0;}
+.home-hero-content .Normal h2, .home-hero-content .Normal h2 a {font-weight:700; font-size:24px; margin:0; text-decoration:none; text-shadow:none; color:#fff;}
+.gallery-controls {position:relative; width:960px; margin-left:auto; margin-right:auto; height:0px; overflow:visible; z-index:50;}
+.prev-arrow, .next-arrow {position:absolute; bottom:37px;}
+.prev-arrow:hover, .next-arrow:hover {cursor:pointer;}
+.prev-arrow {left:0;} .next-arrow {right:0;}

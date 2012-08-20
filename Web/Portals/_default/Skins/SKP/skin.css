@@ -1,0 +1,112 @@
+﻿a.dnnCPHMessage {display:none;}
+.wf-loading #smakk-page-wrapper, .wf-loading #smakk-footer-wrapper{display:none;}
+.DnnModule {clear:both;}
+html, body, form {margin:0;padding:0; height:100%; min-width:960px;}
+body {
+background:url(images/content-background.gif) repeat left top;
+}
+.clear {clear:both;}
+h1 {margin-top:0}
+p {margin:0;}
+/* main page elements */
+#dnnMenu ul.topLevel {margin-top:0;}
+#smakk-page-wrapper {min-height:100%;}
+#smakk-header-wrapper {background:url(images/header-background.png) repeat-x left top; height:81px; margin-bottom:-1px;position:relative;z-index:903;}
+#smakk-header {width:960px; margin-left:auto; margin-right:auto;}
+#smakk-content-wrapper {}
+#smakk-content {width:960px; margin-left:auto; margin-right:auto; padding-bottom:470px; padding-top:30px;}
+#smakk-footer-wrapper{height:470px; background:url(images/upper-footer-background.png) repeat-x; margin-top:-470px;}
+#smakk-upper-footer-wrapper{height:425px}
+#smakk-upper-footer {width:960px; margin-left:auto; margin-right:auto; /*overflow:hidden;*/}
+#smakk-lower-footer-wrapper{height:45px; background:url(images/lower-footer-background.png) repeat-x;}
+#smakk-lower-footer {width:960px; margin-left:auto; margin-right:auto;}
+
+/*header*/
+    #smakk-header{position:relative; z-index:1000;}
+    /*logo*/
+    #skp-logo {position:absolute; top:5px; left:0px;}
+    
+    /*nav*/
+    #smakk-nav {float:right; position:relative; z-index:1000;}
+    #smakk-nav #dnnMenu ul {list-style:none; margin:0;}
+    #smakk-nav #dnnMenu ul.topLevel > li {float:left; padding-top:32px; position:relative;}
+    #smakk-nav #dnnMenu ul.topLevel > li.selected {background:url(images/TopLevelSelected.png) no-repeat scroll center top;}
+    #smakk-nav #dnnMenu ul li /*, #dnnMenu ul li li, #dnnMenu ul li li li*/ {list-style:none; list-style-type:none;}
+    #smakk-nav #dnnMenu .subLevel, #dnnMenu .subLevelRight {display:none;}
+    #smakk-nav ul.topLevel > li > a {display:block; padding-right:11px; padding-left:10px; border-right: solid 1px #a2a2a4; height:20px; font-family:pt-sans, Sans-Serif; font-weight:bold; text-transform:uppercase; color:#656565; font-size:13px;}
+    #smakk-nav ul.topLevel > li > a:hover {color:#fff; text-decoration:none;}
+    #smakk-nav ul.topLevel > li.last > a {padding-right:0px; border:none;}
+
+    #smakk-nav #dnnMenu .subLevel {width:184px; position:absolute; left:0; top:52px;}
+    #smakk-nav #dnnMenu .subLevel .subLevelTop {height:13px; background:url(images/dropdown-top.png) no-repeat left top;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent {padding-left:0px;background:url(images/dropdown-content.png) repeat-y left top; width:184px;}
+    #smakk-nav #dnnMenu .subLevel .subLevelBottom {height:9px; background:url(images/dropdown-bottom.png) no-repeat left top;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li {position:relative;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li > a,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li > a {display:block; padding-top:1px; color:#000; font-family:pt-sans, Sans-Serif;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li a div,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li a div {padding-top:9px; padding-bottom:10px; padding-left:14px; padding-right:10px;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li.hover > a,
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li > a:hover,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li.hover > a,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li > a:hover {background: url(images/selected-nav.png) no-repeat 5px top; color:#135220; text-decoration:none;}
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li.hover > a div,
+    #smakk-nav #dnnMenu .subLevel .subLevelContent > li > a:hover div,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li.hover > a div,
+    #smakk-nav #dnnMenu .subLevel .subLevelRightContent > li > a:hover div {background: url(images/selected-nav.png) no-repeat 5px bottom;}
+
+    #smakk-nav #dnnMenu .subLevelRight {width:184px; position:absolute; left:-174px; top:0px; z-index:-1;}
+    #smakk-nav #dnnMenu .subLevelRight .subLevelRightTop {height:8px; background:url(images/subLevelRight-top.png) no-repeat left top;}
+    #smakk-nav #dnnMenu .subLevelRight .subLevelRightContent {padding-left:0px;background:url(images/subLevelRight-content.png) repeat-y left top; width:184px;}
+    #smakk-nav #dnnMenu .subLevelRight .subLevelRightBottom {height:9px; background:url(images/subLevelRight-bottom.png) no-repeat left top;}
+
+/*hero*/
+    
+    div#smakk-hero-outer-wrapper {position:relative;}
+    div#smakk-hero-wrapper {background:url(images/default-hero-background-pattern.gif) repeat-x scroll left top; overflow:hidden;}
+    div#smakk-hero-inner-wrapper {width:960px; margin-left:auto; margin-right:auto;}
+    div#smakk-hero {padding-top:15px; width:960px; margin-left:-220px; padding-left:220px; padding-right:220px; background:url(images/default-hero.jpg) no-repeat scroll center top; height:123px;}
+    div#hero_content {position:relative;width:960px; margin-left:auto; margin-right:auto; overflow:visible;}
+    div#hero_content .hero_content_pane {position:absolute; top: -140px;}
+    div#hero_content h1 {font-family:museo, Sans-Serif; font-weight:700; color:#fff; margin-left:40px; padding-top:60px; font-size:30px;}    
+
+/*content*/
+#smakk-content, #smakk-content .Normal, #smakk-content .NormalDisabled, #smakk-content .NormalDeleted  
+{font-family:museo, Sans-Serif; font-size:15px; font-weight:300;}
+#smakk-content a {text-decoration:none; color:#145923}
+#smakk-content a:hover {text-decoration:underline;}
+
+
+/*footer*/
+    /*upper footer*/
+        /*footer testimonial*/
+        div#smakk-testimonial-wrapper {height:100px; overflow:visible; padding-top:25px;}
+        div#smakk-testimonial {width:770px; margin-left:auto; margin-right:auto; position:relative; padding: 15px 45px;}
+        img#smakk-testimonial-left-quote {position:absolute; top:0; left:0;}
+        img#smakk-testimonial-right-quote {position:absolute; bottom:0; right:0;}
+        div#footer_testimonial_content .Normal {font-family:pt-sans, sans-serif; text-align:center; color:#3f3836; font-size:16px;}
+        div#footer_testimonial_content strong {font-size:20px;}
+        /*div#footer_wrapper .dnnActionMenuBody {top:0px !important;}*/
+        div#footer_testimonial_content .smakk-container, div#footer_testimonial_content .smakk-container .Normal p {margin-bottom:0px;}
+        
+        /*footer-sitemap*/
+        #smakk-sitemap .Normal table {border:none; width:100%;}
+        #smakk-sitemap .Normal a {text-decoration:none;}
+        #smakk-sitemap .Normal a:hover {color:#fff;}
+        #smakk-sitemap .Normal td {max-width:150px; padding-right:20px; vertical-align:top;}
+        #smakk-sitemap .Normal th {text-align:left; padding-right:20px; padding-top:10px; padding-bottom:10px; white-space:nowrap;}
+        #smakk-sitemap .Normal th a {font-weight:bold; color:#363636; font-family:pt-sans, Sans-Serif; font-size:16px;}
+        #smakk-sitemap .Normal td p {margin-bottom:10px;}
+        #smakk-sitemap .Normal td a {font-family:myriad-pro, Sans-Serif; color:#878787; font-size:12px;}
+        
+        /*lower footer*/
+        #lower_footer_content {float:left;}
+        #dnn_loginControl_loginLink {float:left; text-decoration:underline; font-weight:normal; margin-left:10px;}
+        #powered-by-smakksites {float:right; padding-top:10px;}
+        #lower_footer_content .Normal, #dnn_loginControl_loginLink {font-family:myriad-pro, Sans-Serif; color:#fff; font-size:12px; padding-top:13px;}
+        #lower_footer_content .Normal a {color:#fff; text-decoration:underline;}
+        #lower_footer_content .Normal a:hover {color:#fff; text-decoration:underline;}
+        #lower_footer_content .smakk-container {margin-bottom:0;}
+        
+                                   
