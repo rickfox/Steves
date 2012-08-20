@@ -1,7 +1,7 @@
 ﻿/*########## Generic Styles ##########*/
 html, body, form {margin:0;padding:0; height:100%; min-width:1050px;   font-family: "ff-meta-serif-web-pro",serif;font-weight:500;}
 body{ background:transparent url(images/footer_background.jpg) repeat scroll center top;}
-#smakk-content,.footerContainer,#smakk-header {width:960px; margin:0 auto; }
+#smakk-content,.footerContainer,#smakk-header {width:960px; margin:0 auto; min-width:980px; }
 
 iframe{border:none;}
 .clear {clear:both;}
@@ -12,7 +12,7 @@ a:hover{text-decoration:none; color: #464646;}
 a img,a:focus {border:none;outline:0;}
 
 /*##### Button Styles #####*/
-a.button{font-size:22px;color:#fff;padding:6px 13px; background:#72ccd2;text-transform:uppercase;}
+a.button{font-size:22px;color:#fff;padding:8px 13px 6px; background:#72ccd2;text-transform:uppercase; display: inline-block;}
 a.button:hover{background:#464646;}
 
 /*########## Header ##########*/
@@ -39,6 +39,7 @@ a.button:hover{background:#464646;}
 
 
 /*########## Content ##########*/
+#smakk-page-wrapper{}
 #smakk-content-wrapper{ background:transparent url(images/burlap_background.jpg) repeat scroll center top;}
 #smakk-content{position:relative;}
 

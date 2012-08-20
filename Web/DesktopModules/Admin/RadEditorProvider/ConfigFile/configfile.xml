@@ -13,7 +13,7 @@
   <property name="CssFile">editor.css</property>
   <property name="NewLineBr">False</property>
   <property name="StripFormattingOptions">MSWordRemoveAll,Css,Font,Span,ConvertWordLists</property>
-  <property name="LinksUseRelativeUrls">True</property>
+  <property name="LinksUseRelativeUrls">False</property>
   <property name="LinksUseTabNames">False</property>
   <property name="ShowPortalLinks">True</property>
   <property name="ContentAreaMode">Iframe</property>

@@ -39,8 +39,17 @@
             </div>
         </div>
     </div>
+            <div id="subhero">
+            <div id="subhero_content" class="subhero_content" runat="server"></div>
+            </div>
+            <div id="slideholder">
+            <div class="slidernav left><a href="#"></a></div>
+            <div id="slidewrapper" class="slidewrapper" runat="server"></div>
+            <div class="slidernav right><a href="#"></a></div>
+            </div>
     <div id="smakk-content-wrapper">
         <div id="smakk-content">
+         
             <div class="pageContentWrapper">
                 <div id="ContentPane" class="ContentPane" runat="server">
                 </div>

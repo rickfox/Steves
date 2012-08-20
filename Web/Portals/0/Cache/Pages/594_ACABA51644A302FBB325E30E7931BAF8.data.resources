@@ -3,10 +3,11 @@
 <div class="slide">
 <div class="wrapper">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide1_background.jpg" alt="Steves Ice Cream" />
-<div class="cta">
+<div class="cta grey">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide1_textbox.png" alt="Steves Ice Cream" />
 <p>Forty years ago, Steve&rsquo;s invented the &ldquo;mix-in&rdquo; and sparked<br />
 a flavor revolution. That was just the beginning&hellip;</p>
+<a class="button" href="#">Read Our Story</a>
 </div>
 </div>
 </div>
@@ -15,8 +16,10 @@ a flavor revolution. That was just the beginning&hellip;</p>
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide2_background.jpg" alt="Steves Ice Cream" />
 <div class="cta">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide2_textbox.png" alt="Steves Ice Cream" />
-<p>Forty years ago, Steve&rsquo;s invented the &ldquo;mix-in&rdquo; and sparked<br />
-a flavor revolution. That was just the beginning&hellip;</p>
+<p>People think we must have the best jobs in the<br />
+world, making and trying ice cream all day.<br />
+You know what? They&rsquo;re right.</p>
+<a class="button" href="#">Find a Store Near you</a>
 </div>
 </div>
 </div>
@@ -25,8 +28,10 @@ a flavor revolution. That was just the beginning&hellip;</p>
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide3_background.jpg" alt="Steves Ice Cream" />
 <div class="cta">
 <img src="http://localdev.stevesicecream.com/portals/_default/skins/steves/images/home/slide3_textbox.png" alt="Steves Ice Cream" />
-<p>Forty years ago, Steve&rsquo;s invented the &ldquo;mix-in&rdquo; and sparked<br />
-a flavor revolution. That was just the beginning&hellip;</p>
+<p>Enjoy real Brooklyn flavor without having to<br />
+bribe a cabbie to get you there.
+</p>
+<a class="button" href="#">Shop Now</a>
 </div>
 </div>
 </div>
