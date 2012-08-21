@@ -143,7 +143,10 @@ function verticalcenter() {
             }
         }
         currSlideToCheck.addClass("active");
-        return slidewidthsum - containerwidth;
+
+
+        //Modified for Steves return slidewidthsum - containerwidth;
+        return slidewidthsum;
     }
 
     /*###### Image Scroller Start up #####*/
