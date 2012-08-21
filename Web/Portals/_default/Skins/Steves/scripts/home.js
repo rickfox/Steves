@@ -15,15 +15,33 @@ var isanimated = false;
             return '<a href="#"></a>';
         }
     });
+    $('.slidernav.left a').click(function (e) {
+        e.preventDefault();
+        if (isanimated != true) {
+            isanimated = true;
+            switchslide("back");
+        }
 
+        window.clearInterval(timer);
+    });
+    $('.slidernav.right a').click(function (e) {
+        e.preventDefault();
+        if (isanimated != true) {
+            isanimated = true;
+            switchslide("forward");
+        }
+        window.clearInterval(timer);
+    });
 
     $(window).resize(function () {
         verticalcenter();
+        setslidersides();
     });
     verticalcenter();
     var numlinks = $(".imgSelect a").length;
     $(".imgSelectNav").width((numlinks * 23));
-    imagescroller();
+   imagescroller();
+   setslidersides();
 });
 function verticalcenter() {
 
@@ -37,10 +55,14 @@ function verticalcenter() {
             if ($(this).width() != width) {
                 $(this).width(width);
                 $(this).children().children("img").width(width);
+               
             }
             if (width > 1400) {
                 $(this).children().children("img").css("margin-top", -marginheight);
+                var ctawidth = $(".cta", this).width();
+                $(".cta", this).css("margin-left", ((width - ctawidth) / 2));
             } else { $(this).children().children("img").css("margin-top", 0); }
+           
         });
 
     }
@@ -143,4 +165,25 @@ function verticalcenter() {
         $('#slidecontainer').prepend(imgset);
         $('#slidecontainer img:eq(' + silderimgcount + ')').addClass("active");
         $('#slidecontainer').css({ 'left': -slidersetwidth });
+     
+    }
+    function setslidersides() {
+        windowwidth = $(window).width();
+        sideswidth = (windowwidth - 685) / 2;
+        linkspacing = sideswidth - 36;
+        $(".slidernav").each(function () {
+
+            if (windowwidth > 1400) {
+                $(this).width(sideswidth);
+            if ($(this).hasClass("left")) {
+
+
+                $(".maskleft", this).width((sideswidth - 150)); 
+               
+            } else {
+
+                $(".maskright", this).width((sideswidth - 150));
+            }
+            }
+        });
     }

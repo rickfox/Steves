@@ -1,10 +1,11 @@
-﻿/*##### Hero #####*/
-#smakk-hero-wrapper{background:transparent url(images/text_background.jpg) repeat-x scroll center top;height:674px;width:100%;}
+﻿html, body, form { min-width:1400px;}
+/*##### Hero #####*/
+#smakk-hero-wrapper{background:transparent url(images/text_background.jpg) repeat-x scroll center top;height:685px;width:100%;}
 #heroSlideContainer{background:#000; overflow:hidden;}
 #heroSlideContainer .slide{position:relative;width:100%;height:685px;overflow:hidden;}
 #heroSlideContainer .slide .wrapper{position:relative;}
 #heroSlideContainer .slide .wrapper>img{ width:100%;z-index:5;min-width:1400px;min-height:685px;position:absolute;top:0; left:0;}
-#heroSlideContainer .slide .cta{position:relative; top:235px; width:780px; min-height:300px; z-index:500;color:#72ccd2;font-size:31px;text-align:center; margin:0 auto;font-family: "alternate-gothic-no-3-d",serif;font-weight:400;}
+#heroSlideContainer .slide .cta{position:relative; top:245px; width:780px; min-height:300px;margin-left:310px; z-index:500;color:#72ccd2;font-size:31px;text-align:center; font-family: "alternate-gothic-no-3-d",serif;font-weight:400;}
 #heroSlideContainer .slide .cta.grey{background:transparent url(images/home/cta_grey.png) repeat scroll 0 0;padding-top:30px;}
 .imgSelectNav{margin:0 auto;position:relative; top:-50px;z-index:999;}
 .imgSelect a{height:19px; width:17px; display:block;background:transparent url(images/home/slideindicator_white.png) no-repeat; float:left;margin-left:6px;}
@@ -19,10 +20,35 @@
 #zipcode{height:30px; width:133px; border:1px solid #cfcfcf;padding-top:4px; margin-right:10px;}
 
 /*##### Slider #####*/
-#slideholder{height:285px;border-top:5px solid #72ccd2;border-bottom:5px solid #72ccd2;width:100%; overflow:hidden;}
+#productslider{height:285px;border-top:5px solid #72ccd2;border-bottom:5px solid #72ccd2;width:100%; position:relative; overflow:hidden;}
+#slideholder{height:285px;width:685px; position:relative;margin:0 auto;}
+#slidecontainer{width:999999px;position:absolute;height:285px; top:0;
+                 overflow:hidden;}
+#slidecontainer img{float:left;}
+.slidernav{height:285px; width:35%;position:absolute;top:0;z-index:903;}
+.slidernav.right{right:0px;}
 
+.slidernav.right a{height:43px; width:21px; display:block; background:transparent url(images/home/slider_right.png) no-repeat scroll 0 0;position:absolute;top:121px;left:95px;}
+.slidernav.right a:hover{}
+.slidernav.left{left:0px;}
+
+.slidernav.left a{height:43px; width:21px; display:block; background:transparent url(images/home/slider_left.png) no-repeat scroll 0 0;position:absolute;top:121px;right:95px;}
+.slidernav.left a:hover{}
+#slideholder .dnnActionMenu {left:50%;}
+
+/*Mask*/
+.slidernav.left .maskleft{height:285px;background:transparent url(images/home/maskrepeat.png) repeat scroll 0 0;float:left;max-width:300px;}
+.slidernav.left .maskright{height:285px; width:150px;background:transparent url(images/home/maskgrad_left.png) no-repeat scroll 0 0;float:left;position:relative;}
+.slidernav.right .maskleft{height:285px;width:150px; background:transparent url(images/home/maskgrad_right.png) no-repeat scroll 0 0;float:right;position:relative;}
+.slidernav.right .maskright{height:285px; background:transparent url(images/home/maskrepeat.png) repeat scroll 0 0;float:right;max-width:300px;}
 /*##### ContentPane #####*/
-
+.ContentPane{padding:65px 0;}
+.ContentPane .left{width:450px; float:left;}
+.ContentPane .right{width:510px; float:left;}
+.ContentPane .right h1{font-size:39px;color:#464646;font-family: "alternate-gothic-no-2-d",serif;font-weight:400;}
+.ContentPane .right p{font-size:18px;color:#464646;font-family: "ff-meta-serif-web-pro",serif;font-weight:500;line-height:26px;}
+.ContentPane .right p a{color:#72ccd2;font-weight:700;}
+.ContentPane .right p a:hover{}
 
 /*##### fix footer z-index #####*/
 

@@ -42,10 +42,13 @@
             <div id="subhero">
             <div id="subhero_content" class="subhero_content" runat="server"></div>
             </div>
+            <div id="productslider">
+            <div class="slidernav left"><div class="maskleft"></div><div class="maskright"><a href="#"></a></div></div>
             <div id="slideholder">
-            <div class="slidernav left><a href="#"></a></div>
-            <div id="slidewrapper" class="slidewrapper" runat="server"></div>
-            <div class="slidernav right><a href="#"></a></div>
+                        <div id="slidewrapper" class="slidewrapper" runat="server"></div>
+            <div class="clear"></div>
+                        </div>
+            <div class="slidernav right"><div class="maskright"></div><div class="maskleft"><a href="#"></a></div></div>
             </div>
     <div id="smakk-content-wrapper">
         <div id="smakk-content">
@@ -64,8 +67,22 @@
 <div id="smakk-footer-wrapper">
     <div id="footer_dots">
     </div>
-    <dnn:SMaKKSitesFooter runat="server"></dnn:SMaKKSitesFooter>
+    <div id="footerwrapper" class="footerwrapper">
+    <div id="footer" class="footer" runat="server"></div>
+    <div id="footerfeed">
+		<div id="twitter_m">
+		   <div id="twitter_container">
+		       <ul id="twitter_update_list"></ul>
+		   </div>
+		</div>
+    </div>
+    <div class="clear"></div>
+    </div>
 </div>
+<%--Twitter scripts--%>
+<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+<script src="http://twitter.com/statuses/user_timeline/stevesicecream.json?callback=twitterCallback2&count=2" type="text/javascript"></script>
+<%--End Twitter scripts--%>	
 <script runat="server">
     'for mega menu we need to register hoverIntent plugin, but avoid duplicate registrations
     Protected modeClass As String = "viewMode"
@@ -78,6 +95,7 @@
         Page.ClientScript.RegisterClientScriptInclude("imgCenter", SkinPath & "scripts/imgCenter.js")
         Page.ClientScript.RegisterClientScriptInclude("cycle", SkinPath & "scripts/jquery.cycle.min.js")
         Page.ClientScript.RegisterClientScriptInclude("home", SkinPath & "scripts/home.js")
+        Page.ClientScript.RegisterClientScriptInclude("twitter", SkinPath & "scripts/footertwitter.js")
         '-- stop the slideshow if in edit mode
         
         If IsEditMode() Then
