@@ -40,7 +40,16 @@
     <div id="smakk-content-wrapper">
         <div id="smakk-content">
                <div class="pageContentWrapper">
-               <div id="map" style="width: 715px; height: 515px; "></div>
+               <div id="map" style="width: 715px; height: 515px; "></div><dropdownlist ></dropdownlist>
+               <div id="selectedstatewrapper">
+               <h2>States</h2>
+               <select size="3" id="stateselect">
+               </select>
+               <div id="options">
+               <p>Hewy</p>  <p>Hewy</p>  <p>Hewy</p>  <p>Hewy</p>
+               </div>
+               </div>
+               <div class="clear"></div>
                <h1 id="statename"></h1>
                 <div id="ContentPane" class="ContentPane" runat="server">
                  </div>
@@ -81,6 +90,7 @@
         Page.ClientScript.RegisterClientScriptInclude("hoverintent", ResolveUrl("~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js"))
         Page.ClientScript.RegisterClientScriptInclude("typekit_include", "http://use.typekit.com/lga5juu.js")
         Page.ClientScript.RegisterClientScriptInclude("smakksites", SkinPath & "scripts/smakksites.js")
+        Page.ClientScript.RegisterClientScriptInclude("TinyScrollBar", SkinPath & "scripts/tinyscrollbar.js")
         Page.ClientScript.RegisterClientScriptInclude("default_skin_script", SkinPath & "scripts/default.js")
         Page.ClientScript.RegisterClientScriptInclude("raphael", SkinPath & "scripts/raphael.js")
         Page.ClientScript.RegisterClientScriptInclude("map", SkinPath & "scripts/usmap.js")
