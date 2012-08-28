@@ -32,7 +32,9 @@
   -webkit-border-radius: 5px; /* Safari, Chrome */
   border-radius: 5px; /* universal */
 }
-.jScrollPaneDrag {
+.jScrollPaneDrag 
+{
+     width:15px !important;
         position: absolute;
         cursor: pointer;
         overflow: hidden;
@@ -52,7 +54,7 @@ a.jScrollArrowDown {
         margin: -1px -1px 0 0;
         overflow: hidden;
         height:10px;
-        
+         width:15px !important;
         background:#fff url(images/findus/toparrow.jpg) no-repeat scroll 0 0;
         text-indent:-99999px;
 }
