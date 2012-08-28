@@ -1,0 +1,63 @@
+2012-08-28 09:20:39,051 [SMKKStudios-PC][Thread:9][ERROR] DotNetNuke.Services.Search.SearchDataStore - Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated.
+DotNetNuke.Services.Exceptions.SearchException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddSearchItem(String Title, String Description, Int32 Author, DateTime PubDate, Int32 ModuleId, String Key, String Guid, Int32 ImageFileId)
+   at DotNetNuke.Services.Search.SearchDataStoreController.AddSearchItem(SearchItemInfo item)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection SearchItems)
+   --- End of inner exception stack trace ---
+2012-08-28 09:20:39,051 [SMKKStudios-PC][Thread:13][ERROR] DotNetNuke.Services.Search.SearchDataStore - Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated.
+DotNetNuke.Services.Exceptions.SearchException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (723, ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddSearchItem(String Title, String Description, Int32 Author, DateTime PubDate, Int32 ModuleId, String Key, String Guid, Int32 ImageFileId)
+   at DotNetNuke.Services.Search.SearchDataStoreController.AddSearchItem(SearchItemInfo item)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection SearchItems)
+   --- End of inner exception stack trace ---
+2012-08-28 09:20:39,606 [SMKKStudios-PC][Thread:13][ERROR] DotNetNuke.Services.Search.SearchDataStore - Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (724, ).
+The statement has been terminated.
+DotNetNuke.Services.Exceptions.SearchException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (724, ).
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.SearchItem' with unique index 'IX_SearchItem'. The duplicate key value is (724, ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, String spName, Object[] parameterValues)
+   at DotNetNuke.Data.SqlDataProvider.AddSearchItem(String Title, String Description, Int32 Author, DateTime PubDate, Int32 ModuleId, String Key, String Guid, Int32 ImageFileId)
+   at DotNetNuke.Services.Search.SearchDataStoreController.AddSearchItem(SearchItemInfo item)
+   at DotNetNuke.Services.Search.SearchDataStore.StoreSearchItems(SearchItemInfoCollection SearchItems)
+   --- End of inner exception stack trace ---

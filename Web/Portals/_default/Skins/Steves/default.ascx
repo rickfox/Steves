@@ -19,7 +19,10 @@
 <%@ Register TagPrefix="dnn" TagName="SMaKKSitesFooter" Src="~/Admin/Skins/SMaKKSitesFooter.ascx" %>
 <div id="fb-root">
 </div>
-
+<%-- Social Icon StyleSheets --%>
+<link href="/Webfonts/ss-social.css" rel="stylesheet" type="text/css" />
+<link href="/Webfonts/ss-standard.css" rel="stylesheet" type="text/css" />
+<%-- End Social Icon StyleSheets --%>
 <dnn:STYLES runat="server" ID="StylesIE7" Name="IE7Minus" StyleSheet="ie7skin.css"
     Condition="LT IE 8" UseSkinPath="true" />
 <div id="ControlPanelWrapper">
@@ -50,9 +53,25 @@
 <div class="bottomSection">
 </div>
 <div id="smakk-footer-wrapper">
-<div id="footer_dots"></div>
-    <dnn:SMaKKSitesFooter ID="SMaKKSitesFooter1" runat="server"></dnn:SMaKKSitesFooter>
+    <div id="footer_dots">
+    </div>
+    <div id="footerwrapper" class="footerwrapper">
+    <div id="footer" class="footer" runat="server"></div>
+    <div id="footerfeed">
+     <dnn:SMaKKSitesFooter ID="SMaKKSitesFooter1" runat="server"></dnn:SMaKKSitesFooter>
+		<div id="twitter_m">
+		   <div id="twitter_container">
+		       <ul id="twitter_update_list"></ul>
+		   </div>
+		</div>
+    </div>
+    <div class="clear"></div>
+    </div>
 </div>
+<%--Twitter scripts--%>
+<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+<script src="http://twitter.com/statuses/user_timeline/stevesicecream.json?callback=twitterCallback2&count=2" type="text/javascript"></script>
+<%--End Twitter scripts--%>	
 <script runat="server">
     'for mega menu we need to register hoverIntent plugin, but avoid duplicate registrations
     Protected modeClass As String = "viewMode"
@@ -63,8 +82,15 @@
         Page.ClientScript.RegisterClientScriptInclude("smakksites", SkinPath & "scripts/smakksites.js")
         Page.ClientScript.RegisterClientScriptInclude("default_skin_script", SkinPath & "scripts/default.js")
   
-        '-- stop the slideshow if in edit mode
+        'Include on all pages
+        Page.ClientScript.RegisterClientScriptInclude("twitter", SkinPath & "scripts/footertwitter.js")
+        Page.ClientScript.RegisterClientScriptInclude("Modernizr", SkinPath & "scripts/Modernizr.js")
+        Page.ClientScript.RegisterClientScriptInclude("SVGSWAP", SkinPath & "scripts/SVGSWAP.js")
+        Page.ClientScript.RegisterClientScriptInclude("SVGSWAP_Initialize", SkinPath & "scripts/svgswap_initialize.js")
+        Page.ClientScript.RegisterClientScriptInclude("SSSocial", "/webfonts/ss-social.js")
+        Page.ClientScript.RegisterClientScriptInclude("SSStandard", "/webfonts/ss-standard.js")
         
+        '-- stop the slideshow if in edit mode
         If IsEditMode() Then
             Page.ClientScript.RegisterClientScriptBlock(Me.GetType, "editmode-cycle-stop", "editMode = true;", True)
             modeClass = "editMode"

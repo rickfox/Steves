@@ -22,6 +22,10 @@
 
 <dnn:STYLES runat="server" ID="StylesIE7" Name="IE7Minus" StyleSheet="ie7skin.css"
     Condition="LT IE 8" UseSkinPath="true" />
+<%-- Social Icon StyleSheets --%>
+<link href="/Webfonts/ss-social.css" rel="stylesheet" type="text/css" />
+<link href="/Webfonts/ss-standard.css" rel="stylesheet" type="text/css" />
+<%-- End Social Icon StyleSheets --%>
 <div id="ControlPanelWrapper">
     <dnn:CONTROLPANEL runat="server" ID="cp" IsDockable="True" />
 </div>
@@ -70,6 +74,7 @@
     <div id="footerwrapper" class="footerwrapper">
     <div id="footer" class="footer" runat="server"></div>
     <div id="footerfeed">
+     <dnn:SMaKKSitesFooter ID="SMaKKSitesNav1" runat="server"></dnn:SMaKKSitesFooter>
 		<div id="twitter_m">
 		   <div id="twitter_container">
 		       <ul id="twitter_update_list"></ul>
@@ -95,9 +100,16 @@
         Page.ClientScript.RegisterClientScriptInclude("imgCenter", SkinPath & "scripts/imgCenter.js")
         Page.ClientScript.RegisterClientScriptInclude("cycle", SkinPath & "scripts/jquery.cycle.min.js")
         Page.ClientScript.RegisterClientScriptInclude("home", SkinPath & "scripts/home.js")
-        Page.ClientScript.RegisterClientScriptInclude("twitter", SkinPath & "scripts/footertwitter.js")
-        '-- stop the slideshow if in edit mode
         
+        'Include on all pages
+        Page.ClientScript.RegisterClientScriptInclude("twitter", SkinPath & "scripts/footertwitter.js")
+        Page.ClientScript.RegisterClientScriptInclude("Modernizr", SkinPath & "scripts/Modernizr.js")
+        Page.ClientScript.RegisterClientScriptInclude("SVGSWAP", SkinPath & "scripts/SVGSWAP.js")
+        Page.ClientScript.RegisterClientScriptInclude("SVGSWAP_Initialize", SkinPath & "scripts/svgswap_initialize.js")
+        Page.ClientScript.RegisterClientScriptInclude("SSSocial", "/webfonts/ss-social.js")
+        Page.ClientScript.RegisterClientScriptInclude("SSStandard", "/webfonts/ss-standard.js")
+
+        '-- stop the slideshow if in edit mode
         If IsEditMode() Then
             Page.ClientScript.RegisterClientScriptBlock(Me.GetType, "editmode-cycle-stop", "editMode = true;", True)
             modeClass = "editMode"

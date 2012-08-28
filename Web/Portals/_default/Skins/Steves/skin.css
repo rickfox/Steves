@@ -29,7 +29,7 @@ a.button:hover{background:#464646;}
 
 
 #smakk-nav .shoppingCart{width:140px; position:absolute; right:0px; margin-right:15px;top:0px;}
-#smakk-nav .shoppingCart iframe {width:140px; height:70px;}
+#smakk-nav .shoppingCart iframe {width:140px; height:30px;margin-top:16px;}
 
 /*##### Site Nav COLOR FOR SELECTED PAGE #####*/
 .smakk-page-our_story #smakk-nav .ourStory,
@@ -40,12 +40,12 @@ a.button:hover{background:#464646;}
 
 /*########## Content ##########*/
 #smakk-page-wrapper{}
-#smakk-content-wrapper{ background:transparent url(images/burlap_background.jpg) repeat scroll center top;}
+#smakk-content-wrapper{ background:transparent url(images/burlap_background.jpg) repeat scroll center top;padding-top:25px;}
 #smakk-content{position:relative;}
 
 
 /*########## Footer ##########*/
-#smakk-footer-wrapper{padding-top:10px;}
+#smakk-footer-wrapper{}
 #footer_dots{height:29px; background: transparent url(images/footer_dots.jpg) repeat-x scroll 0 0;}
 #footerwrapper{width:960px; margin:0 auto;}
 .footer{width:670px; height:330px;margin:70px 0;float:left;}
@@ -54,7 +54,8 @@ a.button:hover{background:#464646;}
 .footer ul{padding:0;}
 .footer li{list-style:none;font-size:15px;font-family: "ff-meta-serif-web-pro",serif;font-weight:500;}
 .footer a,.footer p{color:#f4f3f3;font-size:15px;font-family: "ff-meta-serif-web-pro",serif;font-weight:500;}
-.footer h1{color:#f4f3f3;font-size:30px;font-family: "alternate-gothic-no-1-d",serif;font-weight:400;margin:0;text-transform:uppercase;}
+.footer a:hover{color:#72ccd2;}
+.footer h1,#footerfeed h1{color:#f4f3f3;font-size:30px;font-family: "alternate-gothic-no-1-d",serif;font-weight:400;margin:0;text-transform:uppercase;}
 
 /*Feed*/
 #footerfeed{width:290px; height:330px;float:right;margin:70px 0;}
@@ -67,10 +68,8 @@ a.button:hover{background:#464646;}
   -webkit-border-radius: 5px; /* Safari, Chrome */
   border-radius: 5px; /* universal */
   }
-#footerfeed #twitter_update_list li span:after{
-content:("<div class='twitterwing'/>");                                          
-}
-#footerfeed #twitter_update_list li>a{display:block;color:#cbcbcb; font-size:20px !important;font-family: "alternate-gothic-no-1-d",serif;font-weight:400;    padding-left:35px;background:transparent url(images/footer/stevestwittericon.png) no-repeat scroll 0 0;}
+
+#footerfeed #twitter_update_list li>a{display:block;color:#cbcbcb; font-size:20px !important;font-family: "alternate-gothic-no-1-d",serif;font-weight:400;  padding-left:35px;background:transparent url(images/footer/stevestwittericon.png) no-repeat scroll 0 0;}
 #footerfeed #twitter_update_list li a:before
 {
   content:"STEVES ICE CREAM (";
@@ -82,6 +81,10 @@ content:("<div class='twitterwing'/>");
 
 #footerfeed .twitterwing{height:13px; width:13px; background:transparent url(images/footer/twitter_wing.png) no-repeat scroll 0 0;position:absolute; bottom:-12px; left:20px;}
 #footerfeed #twitter_update_list li span a{color:#6c7881;font-size:12px;}
+#footerfeed h1 a{color:#75ccd2; font-size:26px;margin-right:4px;}
+#footerfeed h1 a.first{margin-left:10px;}
+#footerfeed h1 a:hover{text-decoration:none; color:#fff;}
+
 /*########## Typekit FONTS ##########*/
 
 /*

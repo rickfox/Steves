@@ -1,8 +1,8 @@
 ﻿html, body, form { min-width:1400px;}
 /*##### Hero #####*/
 #smakk-hero-wrapper{background:transparent url(images/text_background.jpg) repeat-x scroll center top;height:685px;width:100%;}
-#heroSlideContainer{background:#000; overflow:hidden;}
-#heroSlideContainer .slide{position:relative;width:100%;height:685px;overflow:hidden;}
+#heroSlideContainer{background:#000; overflow:hidden;min-width:1400px;}
+#heroSlideContainer .slide{position:relative;width:100%;height:685px;overflow:hidden;min-width:1400px;}
 #heroSlideContainer .slide .wrapper{position:relative;}
 #heroSlideContainer .slide .wrapper>img{ width:100%;z-index:5;min-width:1400px;min-height:685px;position:absolute;top:0; left:0;}
 #heroSlideContainer .slide .cta{position:relative; top:245px; width:780px; min-height:300px;margin-left:310px; z-index:500;color:#72ccd2;font-size:31px;text-align:center; font-family: "alternate-gothic-no-3-d",serif;font-weight:400;}
@@ -13,7 +13,7 @@
 
 /*##### Sub Hero #####*/
 #subhero{height:208px;padding-left:45px; background:transparent url(images/text_background.jpg) repeat-x scroll 0 0;}                               
-.subhero_content{width:960px; margin:0 auto;}
+.subhero_content{width:960px; margin:0 auto;padding-top:20px;}
 .subherocta{width:300px;float:left;text-align:center;}
 .subherocta.lines{border-left:2px solid #e1e1e1;border-right:2px solid #e1e1e1;padding-bottom:20px;}
 .subherocta h1{font-size:40px; color:#72ccd2;font-family: "alternate-gothic-no-3-d",serif;font-weight:400;text-align:center;  line-height: 38px;margin:20px 0;}
@@ -41,14 +41,16 @@
 .slidernav.left .maskright{height:285px; width:150px;background:transparent url(images/home/maskgrad_left.png) no-repeat scroll 0 0;float:left;position:relative;}
 .slidernav.right .maskleft{height:285px;width:150px; background:transparent url(images/home/maskgrad_right.png) no-repeat scroll 0 0;float:right;position:relative;}
 .slidernav.right .maskright{height:285px; background:transparent url(images/home/maskrepeat.png) repeat scroll 0 0;float:right;max-width:300px;}
+
 /*##### ContentPane #####*/
+#smakk-content-wrapper{padding-top:0;}
 .ContentPane{padding:65px 0;}
 .ContentPane .left{width:450px; float:left;}
 .ContentPane .right{width:510px; float:left;}
 .ContentPane .right h1{font-size:39px;color:#464646;font-family: "alternate-gothic-no-2-d",serif;font-weight:400;}
 .ContentPane .right p{font-size:18px;color:#464646;font-family: "ff-meta-serif-web-pro",serif;font-weight:500;line-height:26px;}
 .ContentPane .right p a{color:#72ccd2;font-weight:700;}
-.ContentPane .right p a:hover{}
+.ContentPane .right p a:hover{color: #464646;}
 
 /*##### fix footer z-index #####*/
 
