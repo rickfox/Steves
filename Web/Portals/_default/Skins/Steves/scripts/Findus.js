@@ -68,13 +68,16 @@
                 if (!statestartup[classes[i]]) {
                     //console.log([classes[i]]);
                     statestartup[classes[i]] = { fill: availablestatecolor };
-                    statehoverstyles[classes[i]] = { fill: avalablestatehover};
+                    statehoverstyles[classes[i]] = { fill: avalablestatehover };
                     avalablestates[classes[i]] = states[classes[i]];
                 }
             }
 
         });
-        for (x in avalablestates) { $("#stateselect").append($('<option></option>').val(x).html(avalablestates[x])); }
+        for (x in avalablestates) { $("#stateselect").append($('<div class="option ' + x + '" data-val="' + x + '" onClick="optionchanged(this);"/>').html(avalablestates[x])); }
+        $(".option","#stateselect").sortElements(function (a, b) {
+            return $(a).text() > $(b).text() ? 1 : -1;
+        });
         //Check if SVG is supported
         if (Modernizr.svg) {
             $('#map').usmap({ stateSpecificStyles: statestartup, stateSpecificHoverStyles: statehoverstyles, 'stateStyles': { fill: defaultcolor, 'stroke': '#fff' }, 'stateHoverStyles': { fill: defaultcolor }, 'stateHoverAnimation': 0, 'showLabels': false, 'click': function (event, data) { trigger(event, data); } });
@@ -85,20 +88,31 @@
             //console.log(statename);
             //Check if SVG is supported
             if (Modernizr.svg) {
-            $('#map').usmap("trigger", statename.name, "click");
+                $('#map').usmap("trigger", statename.name, "click");
             } else {
                 showStores(statename);
             }
         });
         startup();
-        $("#options").jScrollPane({showArrows:true});
+        $("#stateselect").jScrollPane({ showArrows: true });
 
     });
+    function optionchanged(x) {
+        var statename = {};
+        statename.name = $(x).attr("data-val");
+       // console.log(statename.name);
+        //Check if SVG is supported
+        if (Modernizr.svg) {
+            $('#map').usmap("trigger", statename.name, "click");
+        } else {
+            showStores(statename);
+        }
+    }
     function startup() {
         var statename = {};
-        var defaultselected = $('option:eq(0)', '#stateselect');
-        statename.name = defaultselected.val();
-        defaultselected.attr("selected", "selected");
+        var defaultselected = $('.option:eq(0)', '#stateselect');
+        statename.name = defaultselected.attr("data-val");
+        defaultselected.addClass("selected");
         if (Modernizr.svg) {
             $('#map').usmap("trigger", statename.name, "click");
         } else {
@@ -108,7 +122,7 @@
 function trigger(event,data) {
 var name = data.name;
 selectedstate = data.shape.node;
-$('option[value="' + name + '"]', '#stateselect').attr("selected", "selected");
+
 if (statestartup[name]) {
     $(lastselectedstate).css('fill', availablestatecolor);
     $(selectedstate).css('fill', avalablestatehover);
@@ -117,7 +131,10 @@ if (statestartup[name]) {
 }
 }
 function showStores(data) {
-    
+    $(".option", "#stateselect").each(function () {
+        $(this).removeClass("selected");
+    });
+    $("." + data.name, "#stateselect").addClass("selected");
         //alert("click: " + states[data.name]);
         $("#statename").html(states[data.name]);
         $(".state", "#statesContainer").hide();
@@ -127,3 +144,68 @@ function showStores(data) {
     
 }
 
+/**
+* jQuery.fn.sortElements
+* --------------
+* @param Function comparator:
+*   Exactly the same behaviour as [1,2,3].sort(comparator)
+*   
+* @param Function getSortable
+*   A function that should return the element that is
+*   to be sorted. The comparator will run on the
+*   current collection, but you may want the actual
+*   resulting sort to occur on a parent or another
+*   associated element.
+*   
+*   E.g. $('td').sortElements(comparator, function(){
+*      return this.parentNode; 
+*   })
+*   
+*   The <td>'s parent (<tr>) will be sorted instead
+*   of the <td> itself.
+*/
+jQuery.fn.sortElements = (function () {
+
+    var sort = [].sort;
+
+    return function (comparator, getSortable) {
+
+        getSortable = getSortable || function () { return this; };
+
+        var placements = this.map(function () {
+
+            var sortElement = getSortable.call(this),
+                parentNode = sortElement.parentNode,
+
+            // Since the element itself will change position, we have
+            // to have some way of storing its original position in
+            // the DOM. The easiest way is to have a 'flag' node:
+                nextSibling = parentNode.insertBefore(
+                    document.createTextNode(''),
+                    sortElement.nextSibling
+                );
+
+            return function () {
+
+                if (parentNode === this) {
+                    throw new Error(
+                        "You can't sort elements if any one is a descendant of another."
+                    );
+                }
+
+                // Insert before flag:
+                parentNode.insertBefore(this, nextSibling);
+                // Remove flag:
+                parentNode.removeChild(nextSibling);
+
+            };
+
+        });
+
+        return sort.call(this, comparator).each(function (i) {
+            placements[i].call(getSortable.call(this));
+        });
+
+    };
+
+})();
